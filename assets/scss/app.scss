@@ -751,7 +751,8 @@ p
         .icon-c {color: #dedede;
             }
             p {
-            font-size:14px;font-family: Roboto;
+            font-size:14px;
+            font-family:$proxima-soft-reg;
             font-weight:300;
             -webkit-transition:width 0.7s ease;
               -moz-transition:width 0.7s ease;
@@ -860,3 +861,5 @@ content: '';
 background: url('../images/bg-trianlge-mesh-sm.svg') no-repeat center top;
 opacity: 0.2;
 }
+
+

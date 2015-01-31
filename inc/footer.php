@@ -31,7 +31,7 @@
              <h5>Documentation</h5>
              
              <li><a href="https://github.com/BitShares/bitshares" target="_blank">Documentation</a></li>
-             <li><a href="#">API - <span class="label awesome radius">TBA</span></a></li>
+             <li><a href="javascript: void(0)">API - <span class="label awesome radius">TBA</span></a></li>
              <li><a href="http://docs.bitshares.org/" target="_blank">Whitepapers</a></li>
              <li><a href="http://wiki.bitshares.org/" target="_blank">Wiki</a></li>
              </ul>
@@ -55,24 +55,31 @@
              
              <div class="large-2 medium-4 small-6 columns l-border" data-equalizer-watch>
              <ul class="no-bullet">  
-             <h5>Press & Media</h5>
+             <h5 >Press & Media</h5>
              <li><a href="../press">In the Press</a></li> 
-              <li><a href="../mediakit">Mediakit</a></li> 
+              <li><a href="../mediakit">Mediakit</a></li>
+              <li class="divider"></li>
+               <h5 style="margin-top: 12px;">Legal</h5>
+               <li><a href="../privacy">Privacy Policy</a></li>
              
           
              </ul>
              </div> 
               
-             <div class="large-3 medium-4 small-6 columns l-border" data-equalizer-watch>
+             <div class="large-2 medium-4 small-6 columns l-border" data-equalizer-watch>
                 <ul class="no-bullet">
                 <h5>Blockchain</h5>
                 
                 <li><a href="http://www.bitsharesblocks.com" target="_blank">Block Explorer</a></li>
                 <li><a href="../delegates">Delegates</a></li>
-                <li><a href="#">Jobs - <span class="label awesome radius">TBA</span></a></li>
+                <li><a href="javascript: void(0)">Jobs - <span class="label awesome radius">TBA</span></a></li>
              
                 </ul>
-                </div>                                   
+                </div>   
+               
+               
+              
+                                                
                   
              <div class="large-1 medium-4 small-6 columns l-border right" data-equalizer-watch>
              
@@ -84,9 +91,11 @@
              <li><a href="https://plus.google.com/+BitsharesOrg" target="_blank">Google</a></li>
              <li><a href="http://triberr.com/pages/tribe-overview.php?tid=59654" target="_blank">Tribe</a></div>
          </div>
+         
        </div>
        </footer>
-       <div id="footer-bottom"></div>
+  
+      
        
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../bower_components/foundation/js/foundation.min.js"></script>

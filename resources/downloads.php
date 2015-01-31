@@ -61,7 +61,7 @@ include '../inc/header.php';
 </div>
 <div class="row">
 
-<a onclick="redirect();" class="download"  href="../binaries/BitShares-v0.5.3.exe" >
+<a  class="download"  href="../binaries/BitShares-v0.5.3.exe" onclick="thanks();">
 <div class="large-4 medium-4 small-12 columns outline text-center panel-download">
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/windows.svg">
 <h4>BitShares Client Windows</h4>
@@ -73,7 +73,7 @@ include '../inc/header.php';
 </div>
 </a>
 
-<a onclick="redirect();" class="download"  href="../binaries/BitShares-0.5.3.dmg">
+<a class="download"  href="../binaries/BitShares-0.5.3.dmg" onclick="thanks();">
 <div class="large-4 medium-4 small-12 columns outline text-center panel-download">
 
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/apple.svg">
@@ -85,7 +85,7 @@ include '../inc/header.php';
 </a>
 
 
-<a onclick="redirect();" class="download"  href="../binaries/bitshares-0.5.3-linux-x86_64.tar.gz" >
+<a  class="download"  href="../binaries/bitshares-0.5.3-linux-x86_64.tar.gz" onclick='thanks();'>
 <div class="large-4 medium-4 small-12 columns outline text-center panel-download" >
 
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/linux.svg">
@@ -124,9 +124,10 @@ include '../inc/header.php';
 </section>
 </div>
 <script>
-function redirect() {
-  window.location.replace("success.php");
-  return true;
+function thanks() {
+    setTimeout(function () {
+        document.location.pathname = "../resources/thankyou";
+    }, 1000);
 }
 </script>
 

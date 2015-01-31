@@ -7,6 +7,7 @@ include '../inc/header.php';
 
 ?>
 <body id="distribution">
+<div class="wrapper">
 <?php include("../inc/nav.php");?>
 
 
@@ -75,7 +76,7 @@ include '../inc/header.php';
 
 <p>In order to sharedrop on a chain, a snapshot must be taken of all the shareholders at a certain date and time. This snapshot is then incorporated into the genesis block, dividing a percentage of shares at the birth of the new chain amongst shareholders of the snapshotted chain. Snapshots are announced at least 2 weeks in advance, to allow holders of the target chain to collect their shares from the order books of a central exchange, or any wallet where the private keys are not controlled by the shareholder.</p>
 
-<p>Sharedropping has proved to be a powerful tool for building momentum for new blockchain based projects. Since mid 2014, there are five independent projects currently underway that have recognized the significance of the BitShares social consensus, and used it to gain the support of BitShares holders. These are Peertracks, Play, Sparkle. DPOS Protoshares, and (rand paul coin?)[I didn’t include Vote or DNS for obvious reasons, and Lotto failed, what else was there?] Anyone who now buys or holds BitShares could be the potential recipient of countless more sharedrops in the future, as word spreads of the practical advantages of the BitShares toolkit.</p>
+<p>Sharedropping has proved to be a powerful tool for building momentum for new blockchain based projects. Since mid 2014, there are five independent projects currently underway that have recognized the significance of the BitShares social consensus, and used it to gain the support of BitShares holders. These are Peertracks, Play, Sparkle and DPOS Protoshares. Anyone who now buys or holds BitShares could be the potential recipient of countless more sharedrops in the future, as word spreads of the practical advantages of the BitShares toolkit.</p>
      
      
   </div>
@@ -83,6 +84,7 @@ include '../inc/header.php';
    
 
 </section>
+</div>
 <!--// End Content Section  -->  
 <?php
 include("../inc/footer.php");

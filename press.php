@@ -16,7 +16,7 @@ include 'inc/header.php';
 <div class="row">
 <div class="large-12 medium-12 small-12 columns">
 <h2>In the Press</h2>
-<h2 class="subheader">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+<h2 class="subheader">BitShares Press Releases
 </h2>
 </div>
 <hr>

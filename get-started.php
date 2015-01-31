@@ -145,14 +145,15 @@ include 'inc/header.php';
       </p>
      <p>When you return to your wallet, your account should be shown as a Registered account:</p>
      <p><img alt="Account registered" src="../assets/images/get-started/10_account_registered_arrow.png"></p>
-     <p class="panel  ">
-     <i>
-     <span class="label awesome ">NOTE:</span> Reaching this step means you have successfully created and registered your account with the blockchain and may now use it to receive funds.</a></i>
-      </p>
-      <p><h3 class="">Welcome to the blockchain! You should be good to go from here! 
-      </h3></p>
+    
       
       
+  
+   <p class="panel  ">
+   <i>
+   <span class="label awesome success">Welcome to the blockchain! </span>
+    Reaching this step means you have successfully created and registered your account with the blockchain and may now use it to receive funds. If you run into any problems following the steps above, there are very helpful people on the <a href="https://www.bitsharestalk.org" target="_blank">BitShares forum</a> who will be more than willing to help!</a></i>
+    </p>
    
    </div>
  </div>
@@ -165,7 +166,7 @@ include 'inc/header.php';
  <div class="row ">
  <div class="large-12 medium-12 small-12 columns">
  
- <ul class="accordion" data-accordion>
+ <ul style="width: 100%;margin-left: 0px;" class="accordion block" data-accordion>
    <li class="accordion-navigation">
      <a class="label bg-primary" href="#panel1a"><h3>STEP 4 - BACKUP WALLET</h3></a>
      <div id="panel1a" class="content " data-options="one_up: false">
@@ -184,18 +185,17 @@ include 'inc/header.php';
          <p class="panel">
          <i><span class="label awesome">NOTE:</span> While you only have to do this once to recover your balances, we recommend that you do this periodically to avoid losing your transaction history.</i>
          </p>
-         <p>If you run into any problems following the steps above, there are very helpful people on the <a href="https://www.bitsharestalk.org" target="_blank">BitShares forum</a> who will be more than willing to help!</p>
+   
          
       </div>
      </div>
    </li></ul>
  
- 
     
    </div>
  </div>
 
- 
+
    
 </div></div>
   

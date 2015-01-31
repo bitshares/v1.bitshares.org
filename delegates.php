@@ -87,7 +87,7 @@ include 'inc/header.php';
      <img class="round delegates" src="../assets/images/delegates/d2.png">
      <h5>d1.yunbi | d2.yunbi</h5>
      <p><a href="bts:d1.yunbi/approve"><span class="label tiny awesome radius">Approve Delegate</span></a></p>
-     <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
+     <p </p>
      
      
      </div>
@@ -99,7 +99,7 @@ include 'inc/header.php';
      <img class="round delegates"  src="../assets/images/delegates/dev.png">
      <h5>dev.bitsharesblocks</h5>
      <p><a href="bts:d1.yunbi/approve"><span class="label tiny awesome radius ">Approve Delegate</span></a></p>
-     <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
+     <p </p>
      
      </div>
      </a>
@@ -110,19 +110,21 @@ include 'inc/header.php';
      
      <a  class="download"  href="#">
      <div class="large-4 medium-4 small-12 columns outline text-center panel-download " >
-     <img class="round delegates"  src="../assets/images/delegates/dev0.png">
-     <h5>dev0.nikolai</h5>
-     <p><a href="bts:dev0.nikolai/approve"><span class="label tiny awesome radius ">Approve Delegate</span></a></p>
+     <img class="round delegates"  src="../assets/images/delegates/marketing.png">
+     <h5>marketing.methodx</h5>
+     <p><a href="bts:marketing.methodx/approve"><span class="label tiny awesome radius ">Approve Delegate</span></a></p>
      
-     <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
+     <p> </p>
      
      </div>
      </a>
      
+           <p style="margin-top: 24px;"><h5>More delegates will be added soon…</h5></center> </p>
    
        </div>
+       
   </div>
-
+ 
 
 </div></section>
 </div>
