@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="80px" viewBox="0 0 200 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2 (9961) - http://www.bohemiancoding.com/sketch -->
+    <title>bitEUR - logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BitAsset-Logo-+-Icons---Fonts-outlined-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="bitEUR---logo" sketch:type="MSArtboardGroup">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(17.000000, 12.000000)">
+                <path d="M12.3523132,35.5970316 L-1.77635684e-15,23.4333333 L-1.77635684e-15,38 L11.2978474,38 C11.4915248,37.1281265 11.8573599,36.2987835 12.3523132,35.5970316 L12.3523132,35.5970316 Z" id="Shape-13" fill="#BABEC1" sketch:type="MSShapeGroup"></path>
+                <path d="M11.3805403,40.5333333 L1.77635684e-15,40.5333333 C0.259139437,44.5194158 1.85716597,48.1176632 4.34058557,50.9833333 L12.3523132,42.989622 C11.8988192,42.2354983 11.5317049,41.4167354 11.3805403,40.5333333 L11.3805403,40.5333333 Z" id="Shape-14" fill="#BABEC1" sketch:type="MSShapeGroup"></path>
+                <path d="M29.13879,26.1897727 C26.315684,23.7284091 22.6952122,22.1306818 18.6868327,21.85 L18.6868327,33.1852273 C19.5919507,33.3579545 20.3893165,33.6818182 21.0789302,34.2 L29.13879,26.1897727 L29.13879,26.1897727 Z" id="Shape-15" fill="#BABEC1" sketch:type="MSShapeGroup"></path>
+                <path d="M22.8042705,42.7426974 L30.7079219,50.6666667 C33.0599469,47.8837177 34.5432059,44.3997205 34.8398577,40.5333333 L23.7154153,40.5333333 C23.5035211,41.3618449 23.2280587,42.084137 22.8042705,42.7426974 L22.8042705,42.7426974 Z" id="Shape-16" fill="#BABEC1" sketch:type="MSShapeGroup"></path>
+                <path d="M23.8192333,38 L35.1565836,38 C34.8974442,34.0139175 33.2994177,30.4156701 30.8159981,27.55 L22.8042705,35.5437113 C23.2793594,36.2978351 23.6248787,37.1381443 23.8192333,38 L23.8192333,38 Z" id="Shape-17" fill="#BABEC1" sketch:type="MSShapeGroup"></path>
+                <path d="M6.01779359,52.6602273 C8.84089959,55.1215909 12.4613714,56.7193182 16.4697509,57 L16.4697509,45.6647727 C15.5646329,45.4920455 14.7672671,45.1681818 14.0776534,44.65 L6.01779359,52.6602273 L6.01779359,52.6602273 Z" id="Shape-18" fill="#BABEC1" sketch:type="MSShapeGroup"></path>
+                <path d="M19.0035587,45.6647727 L19.0035587,57 C23.0119382,56.7409091 26.63241,55.1215909 29.455516,52.6602273 L21.4818579,44.65 C20.7060425,45.1681818 19.8871262,45.4920455 19.0035587,45.6647727 L19.0035587,45.6647727 Z" id="Shape-19" fill="#BABEC1" sketch:type="MSShapeGroup"></path>
+                <path d="M0.0431145311,19.7170567 C3.08268898,22.73891 12.6325576,32.2759646 14.2277953,33.8833333 C14.9176278,33.4975648 15.6290175,33.1546595 16.4697509,32.9832068 L16.4697509,14.5306135 L0,7.10542736e-15 C-1.53173584e-15,0.0214315834 0.0431145311,19.2669935 0.0431145311,19.7170567 L0.0431145311,19.7170567 Z" id="Shape-20" fill="#0E8CB9" sketch:type="MSShapeGroup"></path>
+            </g>
+            <text id="bitEUR" sketch:type="MSTextLayer" font-family="Proxima Nova Soft" font-size="36" font-weight="420" letter-spacing="1.10000002">
+                <tspan x="64" y="60" fill="#BABEC1">bit</tspan>
+                <tspan x="107.512" y="60" font-size="34" font-weight="526" letter-spacing="1.03888881" fill="#0E8CB9">EUR</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

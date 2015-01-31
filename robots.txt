@@ -1,0 +1,33 @@
+User-agent: *
+Disallow: /blog/cgi-bin/
+Disallow: /blog/wp-admin/
+Disallow: /blog/wp-includes/
+Disallow: /blog/wp-content/
+Disallow: /blog/archives/
+Disallow: /blog/*?*
+Disallow: /blog/wp-*
+Disallow: /blog/author/
+Disallow: /blog/comments/feed/
+Disallow: /blog/blog/page/t
+Disallow: /blog/category/
+Disallow: /blog/product-category/
+Disallow: /blog/product-tag/
+Disallow: /blog/tag/
+Disallow: /blog/shop/cart/
+Disallow: /blog/shop/checkout/
+Disallow: /blog/shop/uncategorized/
+Disallow: /blog/my-account/
+Disallow: /inc/
+
+
+User-agent: Mediapartners-Google*
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /blog/wp-content/uploads/
+
+User-agent: Adsbot-Google
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /

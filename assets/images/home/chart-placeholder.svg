@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-141.3 284.7 952.5 272.4" enable-background="new -141.3 284.7 952.5 272.4" xml:space="preserve">
+<filter  width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox" id="filter-2">
+	<feOffset  in="SourceAlpha" dx="0" dy="1" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" stdDeviation="2" result="shadowBlurOuter1"></feGaussianBlur>
+	
+		<feColorMatrix  type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.7 0" in="shadowBlurOuter1" result="shadowMatrixOuter1">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixOuter1"></feMergeNode>
+		<feMergeNode  in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<title>Charts 1</title>
+<desc>Created with Sketch.</desc>
+<g id="General-Stuff" sketch:type="MSPage">
+	<g id="Desktop-HD-2" transform="translate(-105.000000, -588.000000)" sketch:type="MSArtboardGroup">
+		<g id="Chart-bg-_x2B_-Charts-1" transform="translate(105.000000, 583.000000)" sketch:type="MSLayerGroup">
+			<g id="Charts-1">
+				<g id="y-axis" transform="translate(6.000000, 196.000000)">
+					<rect id="tick" x="-120" y="287.9" sketch:type="MSShapeGroup" fill-opacity="0.2" width="1" height="12">
+					</rect>
+					<rect id="tick_1_" x="11" y="287.9" sketch:type="MSShapeGroup" fill-opacity="0.2" width="1" height="12">
+					</rect>
+					<rect id="tick_2_" x="156" y="287.9" sketch:type="MSShapeGroup" fill-opacity="0.2" width="1" height="12">
+					</rect>
+					<rect id="tick_3_" x="302" y="287.9" sketch:type="MSShapeGroup" fill-opacity="0.2" width="1" height="12">
+					</rect>
+					<rect id="tick_4_" x="433" y="287.9" sketch:type="MSShapeGroup" fill-opacity="0.2" width="1" height="12">
+					</rect>
+					<rect id="tick_5_" x="579" y="287.9" sketch:type="MSShapeGroup" fill-opacity="0.2" width="1" height="12">
+					</rect>
+					<rect id="tick_6_" x="725" y="287.9" sketch:type="MSShapeGroup" fill-opacity="0.2" width="1" height="12">
+					</rect>
+					<text transform="matrix(1 0 0 1 -127.2057 309.89)" font-family="'Roboto-Regular'" font-size="12.4667">11. Feb</text>
+					<text transform="matrix(1 0 0 1 -9.2057 309.89)" font-family="'Roboto-Regular'" font-size="12.4667">25. Feb</text>
+					<text transform="matrix(1 0 0 1 135.7251 309.89)" font-family="'Roboto-Regular'" font-size="12.4667">11. Mar</text>
+					<text transform="matrix(1 0 0 1 280.7251 309.89)" font-family="'Roboto-Regular'" font-size="12.4667">25. Mar</text>
+					<text transform="matrix(1 0 0 1 416.5583 309.89)" font-family="'Roboto-Regular'" font-size="12.4667">8. Apr</text>
+					<text transform="matrix(1 0 0 1 560.5491 309.89)" font-family="'Roboto-Regular'" font-size="12.4667">22. Apr</text>
+					<text transform="matrix(1 0 0 1 706.7361 309.89)" font-family="'Roboto-Regular'" font-size="12.4667">6. May</text>
+				</g>
+				<g id="x-axis" transform="translate(0.000000, 43.000000)">
+					<text transform="matrix(1 0 0 1 770.0059 358.89)" font-family="'Roboto-Regular'" font-size="12.4667">20M</text>
+					<rect id="grid-line" x="-130" y="287.9" sketch:type="MSShapeGroup" fill-opacity="0.1" width="930" height="1">
+					</rect>
+					<rect id="grid-line_1_" x="-130" y="363.9" sketch:type="MSShapeGroup" fill-opacity="0.1" width="930" height="1">
+					</rect>
+					<rect id="grid-line_2_" x="-130" y="439.9" sketch:type="MSShapeGroup" fill-opacity="0.1" width="930" height="1">
+					</rect>
+					<text transform="matrix(1 0 0 1 778.0244 435.89)" font-family="'Roboto-Regular'" font-size="12.4667">0M</text>
+				</g>
+				<g id="series" transform="translate(10.000000, 67.000000)" sketch:type="MSShapeGroup">
+					
+						<radialGradient id="Rectangle-19_63_" cx="-250.4951" cy="775.5317" r="1.6001" gradientTransform="matrix(7 0 0 -69 1630 53863.7109)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19" x="-130" y="346.9" fill="url(#Rectangle-19_63_)" width="7" height="69"/>
+					
+						<radialGradient id="Rectangle-19_64_" cx="-250.4951" cy="776.1056" r="1.6001" gradientTransform="matrix(7 0 0 -80 1645 62430.293)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_1_" x="-115" y="335.9" fill="url(#Rectangle-19_64_)" width="7" height="80"/>
+					
+						<radialGradient id="Rectangle-19_65_" cx="-250.4951" cy="775.0604" r="1.6001" gradientTransform="matrix(7 0 0 -62 1659 48412.25)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_2_" x="-101" y="353.9" fill="url(#Rectangle-19_65_)" width="7" height="62"/>
+					
+						<radialGradient id="Rectangle-19_66_" cx="-250.4951" cy="773.4447" r="1.6001" gradientTransform="matrix(7 0 0 -46 1674 35951.7695)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_3_" x="-86" y="369.9" fill="url(#Rectangle-19_66_)" width="7" height="46"/>
+					
+						<radialGradient id="Rectangle-19_67_" cx="-250.4951" cy="773.8281" r="1.6001" gradientTransform="matrix(7 0 0 -49 1689 38288.1094)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_4_" x="-71" y="366.9" fill="url(#Rectangle-19_67_)" width="7" height="49"/>
+					
+						<radialGradient id="Rectangle-19_68_" cx="-250.4951" cy="774.4692" r="1.6001" gradientTransform="matrix(7 0 0 -55 1703 42960.793)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_5_" x="-57" y="360.9" fill="url(#Rectangle-19_68_)" width="7" height="55"/>
+					
+						<radialGradient id="Rectangle-19_69_" cx="-250.4951" cy="775.0604" r="1.6001" gradientTransform="matrix(7 0 0 -62 1718 48412.25)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_6_" x="-42" y="353.9" fill="url(#Rectangle-19_69_)" width="7" height="62"/>
+					
+						<radialGradient id="Rectangle-19_70_" cx="-250.4951" cy="774.8242" r="1.6001" gradientTransform="matrix(7 0 0 -59 1733 46075.9102)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_7_" x="-27" y="356.9" fill="url(#Rectangle-19_70_)" width="7" height="59"/>
+					
+						<radialGradient id="Rectangle-19_71_" cx="-250.4951" cy="773.0079" r="1.6001" gradientTransform="matrix(7 0 0 -43 1746 33615.4297)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_8_" x="-14" y="372.9" fill="url(#Rectangle-19_71_)" width="7" height="43"/>
+					
+						<radialGradient id="Rectangle-19_72_" cx="-250.4951" cy="773.8281" r="1.6001" gradientTransform="matrix(7 0 0 -49 1761 38288.1094)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_9_" x="1" y="366.9" fill="url(#Rectangle-19_72_)" width="7" height="49"/>
+					
+						<radialGradient id="Rectangle-19_73_" cx="-250.4951" cy="775.2748" r="1.6001" gradientTransform="matrix(7 0 0 -65 1776 50748.5898)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_10_" x="16" y="350.9" fill="url(#Rectangle-19_73_)" width="7" height="65"/>
+					
+						<radialGradient id="Rectangle-19_74_" cx="-250.4951" cy="775.9161" r="1.6001" gradientTransform="matrix(7 0 0 -76 1790 59315.1719)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_11_" x="30" y="339.9" fill="url(#Rectangle-19_74_)" width="7" height="76"/>
+					
+						<radialGradient id="Rectangle-19_75_" cx="-250.4951" cy="773.0079" r="1.6001" gradientTransform="matrix(7 0 0 -43 1805 33615.4297)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_12_" x="45" y="372.9" fill="url(#Rectangle-19_75_)" width="7" height="43"/>
+					
+						<radialGradient id="Rectangle-19_76_" cx="-250.4951" cy="775.6492" r="1.6001" gradientTransform="matrix(7 0 0 -71 1820 55421.2695)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_13_" x="60" y="344.9" fill="url(#Rectangle-19_76_)" width="7" height="71"/>
+					
+						<radialGradient id="Rectangle-19_77_" cx="-250.4951" cy="775.9161" r="1.6001" gradientTransform="matrix(7 0 0 -76 1834 59315.1719)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_14_" x="74" y="339.9" fill="url(#Rectangle-19_77_)" width="7" height="76"/>
+					
+						<radialGradient id="Rectangle-19_78_" cx="-250.4951" cy="776.277" r="1.6001" gradientTransform="matrix(7 0 0 -84 1849 65545.4141)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_15_" x="89" y="331.9" fill="url(#Rectangle-19_78_)" width="7" height="84"/>
+					
+						<radialGradient id="Rectangle-19_79_" cx="-250.4951" cy="775.0604" r="1.6001" gradientTransform="matrix(7 0 0 -62 1864 48412.25)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_16_" x="104" y="353.9" fill="url(#Rectangle-19_79_)" width="7" height="62"/>
+					
+						<radialGradient id="Rectangle-19_80_" cx="-250.4951" cy="774.8242" r="1.6001" gradientTransform="matrix(7 0 0 -59 1879 46075.9102)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_17_" x="119" y="356.9" fill="url(#Rectangle-19_80_)" width="7" height="59"/>
+					
+						<radialGradient id="Rectangle-19_81_" cx="-250.4951" cy="773.8281" r="1.6001" gradientTransform="matrix(7 0 0 -49 1893 38288.1094)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_18_" x="133" y="366.9" fill="url(#Rectangle-19_81_)" width="7" height="49"/>
+					
+						<radialGradient id="Rectangle-19_82_" cx="-250.4951" cy="775.0604" r="1.6001" gradientTransform="matrix(7 0 0 -62 1908 48412.25)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_19_" x="148" y="353.9" fill="url(#Rectangle-19_82_)" width="7" height="62"/>
+					
+						<radialGradient id="Rectangle-19_83_" cx="-250.4951" cy="774.8242" r="1.6001" gradientTransform="matrix(7 0 0 -59 1923 46075.9102)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_20_" x="163" y="356.9" fill="url(#Rectangle-19_83_)" width="7" height="59"/>
+					
+						<radialGradient id="Rectangle-19_84_" cx="-250.4951" cy="774.2716" r="1.6001" gradientTransform="matrix(7 0 0 -53 1936 41403.2305)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_21_" x="176" y="362.9" fill="url(#Rectangle-19_84_)" width="7" height="53"/>
+					
+						<radialGradient id="Rectangle-19_85_" cx="-250.4951" cy="772.8484" r="1.6001" gradientTransform="matrix(7 0 0 -42 1951 32836.6523)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_22_" x="191" y="373.9" fill="url(#Rectangle-19_85_)" width="7" height="42"/>
+					
+						<radialGradient id="Rectangle-19_86_" cx="-250.4951" cy="776.277" r="1.6001" gradientTransform="matrix(7 0 0 -84 1965 65545.4141)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_23_" x="205" y="331.9" fill="url(#Rectangle-19_86_)" width="7" height="84"/>
+					
+						<radialGradient id="Rectangle-19_87_" cx="-250.4951" cy="776.1056" r="1.6001" gradientTransform="matrix(7 0 0 -80 1980 62430.293)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_24_" x="220" y="335.9" fill="url(#Rectangle-19_87_)" width="7" height="80"/>
+					
+						<radialGradient id="Rectangle-19_88_" cx="-250.4951" cy="775.5317" r="1.6001" gradientTransform="matrix(7 0 0 -69 1995 53863.7109)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_25_" x="235" y="346.9" fill="url(#Rectangle-19_88_)" width="7" height="69"/>
+					
+						<radialGradient id="Rectangle-19_89_" cx="-250.4951" cy="772.6812" r="1.6001" gradientTransform="matrix(7 0 0 -41 2009 32057.8711)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_26_" x="249" y="374.9" fill="url(#Rectangle-19_89_)" width="7" height="41"/>
+					
+						<radialGradient id="Rectangle-19_90_" cx="-250.4951" cy="773.8281" r="1.6001" gradientTransform="matrix(7 0 0 -49 2024 38288.1094)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_27_" x="264" y="366.9" fill="url(#Rectangle-19_90_)" width="7" height="49"/>
+					
+						<radialGradient id="Rectangle-19_91_" cx="-250.4951" cy="774.2716" r="1.6001" gradientTransform="matrix(7 0 0 -53 2039 41403.2305)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_28_" x="279" y="362.9" fill="url(#Rectangle-19_91_)" width="7" height="53"/>
+					
+						<radialGradient id="Rectangle-19_92_" cx="-250.4951" cy="775.2748" r="1.6001" gradientTransform="matrix(7 0 0 -65 2054 50748.5898)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_29_" x="294" y="350.9" fill="url(#Rectangle-19_92_)" width="7" height="65"/>
+					
+						<radialGradient id="Rectangle-19_93_" cx="-250.4951" cy="772.6812" r="1.6001" gradientTransform="matrix(7 0 0 -41 2068 32057.8711)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_30_" x="308" y="374.9" fill="url(#Rectangle-19_93_)" width="7" height="41"/>
+					
+						<radialGradient id="Rectangle-19_94_" cx="-250.4951" cy="773.4447" r="1.6001" gradientTransform="matrix(7 0 0 -46 2083 35951.7695)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_31_" x="323" y="369.9" fill="url(#Rectangle-19_94_)" width="7" height="46"/>
+					
+						<radialGradient id="Rectangle-19_95_" cx="-250.4951" cy="774.4692" r="1.6001" gradientTransform="matrix(7 0 0 -55 2098 42960.793)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_32_" x="338" y="360.9" fill="url(#Rectangle-19_95_)" width="7" height="55"/>
+					
+						<radialGradient id="Rectangle-19_96_" cx="-250.4951" cy="775.0604" r="1.6001" gradientTransform="matrix(7 0 0 -62 2111 48412.25)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_33_" x="351" y="353.9" fill="url(#Rectangle-19_96_)" width="7" height="62"/>
+					
+						<radialGradient id="Rectangle-19_97_" cx="-250.4951" cy="774.4692" r="1.6001" gradientTransform="matrix(7 0 0 -55 2126 42960.793)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_34_" x="366" y="360.9" fill="url(#Rectangle-19_97_)" width="7" height="55"/>
+					
+						<radialGradient id="Rectangle-19_98_" cx="-250.4951" cy="774.2716" r="1.6001" gradientTransform="matrix(7 0 0 -53 2140 41403.2305)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_35_" x="380" y="362.9" fill="url(#Rectangle-19_98_)" width="7" height="53"/>
+					
+						<radialGradient id="Rectangle-19_99_" cx="-250.4951" cy="774.4692" r="1.6001" gradientTransform="matrix(7 0 0 -55 2155 42960.793)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_36_" x="395" y="360.9" fill="url(#Rectangle-19_99_)" width="7" height="55"/>
+					
+						<radialGradient id="Rectangle-19_100_" cx="-250.4951" cy="773.8281" r="1.6001" gradientTransform="matrix(7 0 0 -49 2170 38288.1094)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_37_" x="410" y="366.9" fill="url(#Rectangle-19_100_)" width="7" height="49"/>
+					
+						<radialGradient id="Rectangle-19_101_" cx="-250.4951" cy="772.6812" r="1.6001" gradientTransform="matrix(7 0 0 -41 2185 32057.8711)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_38_" x="425" y="374.9" fill="url(#Rectangle-19_101_)" width="7" height="41"/>
+					
+						<radialGradient id="Rectangle-19_102_" cx="-250.4951" cy="772.1266" r="1.6001" gradientTransform="matrix(7 0 0 -38 2199 29721.5312)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_39_" x="439" y="377.9" fill="url(#Rectangle-19_102_)" width="7" height="38"/>
+					
+						<radialGradient id="Rectangle-19_103_" cx="-250.4951" cy="774.8242" r="1.6001" gradientTransform="matrix(7 0 0 -59 2214 46075.9102)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_40_" x="454" y="356.9" fill="url(#Rectangle-19_103_)" width="7" height="59"/>
+					
+						<radialGradient id="Rectangle-19_104_" cx="-250.4951" cy="773.4447" r="1.6001" gradientTransform="matrix(7 0 0 -46 2229 35951.7695)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_41_" x="469" y="369.9" fill="url(#Rectangle-19_104_)" width="7" height="46"/>
+					
+						<radialGradient id="Rectangle-19_105_" cx="-250.4951" cy="770.4153" r="1.6001" gradientTransform="matrix(7 0 0 -31 2243 24270.0703)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_42_" x="483" y="384.9" fill="url(#Rectangle-19_105_)" width="7" height="31"/>
+					
+						<radialGradient id="Rectangle-19_106_" cx="-250.4951" cy="772.1266" r="1.6001" gradientTransform="matrix(7 0 0 -38 2258 29721.5312)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_43_" x="498" y="377.9" fill="url(#Rectangle-19_106_)" width="7" height="38"/>
+					
+						<radialGradient id="Rectangle-19_107_" cx="-250.4951" cy="772.6812" r="1.6001" gradientTransform="matrix(7 0 0 -41 2273 32057.8711)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_44_" x="513" y="374.9" fill="url(#Rectangle-19_107_)" width="7" height="41"/>
+					
+						<radialGradient id="Rectangle-19_108_" cx="-250.4951" cy="777.3641" r="1.6001" gradientTransform="matrix(7 0 0 -123 2287 95917.8359)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_45_" x="527" y="292.9" fill="url(#Rectangle-19_108_)" width="7" height="123"/>
+					
+						<radialGradient id="Rectangle-19_109_" cx="-250.4951" cy="776.674" r="1.6001" gradientTransform="matrix(7 0 0 -95 2301 74111.9922)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_46_" x="541" y="320.9" fill="url(#Rectangle-19_109_)" width="7" height="95"/>
+					
+						<radialGradient id="Rectangle-19_110_" cx="-250.4951" cy="776.1056" r="1.6001" gradientTransform="matrix(7 0 0 -80 2316 62430.293)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_47_" x="556" y="335.9" fill="url(#Rectangle-19_110_)" width="7" height="80"/>
+					
+						<radialGradient id="Rectangle-19_111_" cx="-250.4951" cy="774.4692" r="1.6001" gradientTransform="matrix(7 0 0 -55 2330 42960.793)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_48_" x="570" y="360.9" fill="url(#Rectangle-19_111_)" width="7" height="55"/>
+					
+						<radialGradient id="Rectangle-19_112_" cx="-250.4951" cy="776.3568" r="1.6001" gradientTransform="matrix(7 0 0 -86 2345 67102.9688)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_49_" x="585" y="329.9" fill="url(#Rectangle-19_112_)" width="7" height="86"/>
+					
+						<radialGradient id="Rectangle-19_113_" cx="-250.4951" cy="777.4556" r="1.6001" gradientTransform="matrix(7 0 0 -128 2360 99811.7344)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_50_" x="600" y="287.9" fill="url(#Rectangle-19_113_)" width="7" height="128"/>
+					
+						<radialGradient id="Rectangle-19_114_" cx="-250.4951" cy="774.2716" r="1.6001" gradientTransform="matrix(7 0 0 -53 2374 41403.2305)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_51_" x="614" y="362.9" fill="url(#Rectangle-19_114_)" width="7" height="53"/>
+					
+						<radialGradient id="Rectangle-19_115_" cx="-250.4951" cy="776.8256" r="1.6001" gradientTransform="matrix(7 0 0 -100 2389 78005.8906)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_52_" x="629" y="315.9" fill="url(#Rectangle-19_115_)" width="7" height="100"/>
+					
+						<radialGradient id="Rectangle-19_116_" cx="-250.4951" cy="776.277" r="1.6001" gradientTransform="matrix(7 0 0 -84 2404 65545.4141)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_53_" x="644" y="331.9" fill="url(#Rectangle-19_116_)" width="7" height="84"/>
+					
+						<radialGradient id="Rectangle-19_117_" cx="-250.4951" cy="776.5408" r="1.6001" gradientTransform="matrix(7 0 0 -91 2418 70996.875)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_54_" x="658" y="324.9" fill="url(#Rectangle-19_117_)" width="7" height="91"/>
+					
+						<radialGradient id="Rectangle-19_118_" cx="-250.4951" cy="775.5317" r="1.6001" gradientTransform="matrix(7 0 0 -69 2433 53863.7109)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_55_" x="673" y="346.9" fill="url(#Rectangle-19_118_)" width="7" height="69"/>
+					
+						<radialGradient id="Rectangle-19_119_" cx="-250.4951" cy="774.4692" r="1.6001" gradientTransform="matrix(7 0 0 -55 2448 42960.793)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_56_" x="688" y="360.9" fill="url(#Rectangle-19_119_)" width="7" height="55"/>
+					
+						<radialGradient id="Rectangle-19_120_" cx="-250.4951" cy="773.4447" r="1.6001" gradientTransform="matrix(7 0 0 -46 2462 35951.7695)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_57_" x="702" y="369.9" fill="url(#Rectangle-19_120_)" width="7" height="46"/>
+					
+						<radialGradient id="Rectangle-19_121_" cx="-250.4951" cy="775.2056" r="1.6001" gradientTransform="matrix(7 0 0 -64 2476 49969.8125)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_58_" x="716" y="351.9" fill="url(#Rectangle-19_121_)" width="7" height="64"/>
+					
+						<radialGradient id="Rectangle-19_122_" cx="-250.4951" cy="775.0604" r="1.6001" gradientTransform="matrix(7 0 0 -62 2491 48412.25)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_59_" x="731" y="353.9" fill="url(#Rectangle-19_122_)" width="7" height="62"/>
+					
+						<radialGradient id="Rectangle-19_123_" cx="-250.4951" cy="774.4692" r="1.6001" gradientTransform="matrix(7 0 0 -55 2505 42960.793)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_60_" x="745" y="360.9" fill="url(#Rectangle-19_123_)" width="7" height="55"/>
+					
+						<radialGradient id="Rectangle-19_124_" cx="-250.4951" cy="774.2716" r="1.6001" gradientTransform="matrix(7 0 0 -53 2520 41403.2305)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_61_" x="760" y="362.9" fill="url(#Rectangle-19_124_)" width="7" height="53"/>
+					
+						<radialGradient id="Rectangle-19_125_" cx="-250.4951" cy="773.4447" r="1.6001" gradientTransform="matrix(7 0 0 -46 2535 35951.7695)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#00587C"/>
+						<stop  offset="0.2197" style="stop-color:#006A93"/>
+						<stop  offset="0.3361" style="stop-color:#006A93"/>
+						<stop  offset="1" style="stop-color:#00A9E0"/>
+					</radialGradient>
+					<rect id="Rectangle-19_62_" x="775" y="369.9" fill="url(#Rectangle-19_125_)" width="7" height="46"/>
+				</g>
+				<g id="range-selector-2" transform="translate(21.000000, 0.000000)">
+					<g id="range-input-group" transform="translate(514.000000, 1.000000)">
+						<text transform="matrix(1 0 0 1 -76 303.89)" font-family="'Roboto-Regular'" font-size="14.25">Feb 8, 2013</text>
+						<text transform="matrix(1 0 0 1 117 303.89)" font-family="'Roboto-Regular'" font-size="14.25">May 9, 2013</text>
+						<text transform="matrix(1 0 0 1 -128.7394 302.89)" font-family="'Roboto-Regular'" font-size="14.25">From</text>
+						<text transform="matrix(1 0 0 1 81.5513 302.89)" font-family="'Roboto-Regular'" font-size="14.25">To</text>
+						<rect id="input" x="-85" y="311.9" sketch:type="MSShapeGroup" fill-opacity="0.2" width="147" height="1">
+						</rect>
+						<rect id="input_1_" x="108" y="311.9" sketch:type="MSShapeGroup" fill-opacity="0.2" width="147" height="1">
+						</rect>
+					</g>
+					<text transform="matrix(1 0 0 1 -129.54 303.89)" font-family="'Roboto-Regular'" font-size="14.25">1M</text>
+					<g id="button-_x2B_-active" transform="translate(43.000000, 1.000000)">
+						<text transform="matrix(1 0 0 1 -108.5818 302.89)" font-family="'Roboto-Regular'" font-size="14.25">3M</text>
+						<rect id="active" x="-130" y="315.9" sketch:type="MSShapeGroup" fill-opacity="0.87" width="66" height="3">
+						</rect>
+					</g>
+					<text transform="matrix(1 0 0 1 -2.54 303.89)" font-family="'Roboto-Regular'" font-size="14.25">6M</text>
+					<text transform="matrix(1 0 0 1 55.5665 303.89)" font-family="'Roboto-Regular'" font-size="14.25">YTD</text>
+					<text transform="matrix(1 0 0 1 129.2799 303.89)" font-family="'Roboto-Regular'" font-size="14.25">1Y</text>
+					<text transform="matrix(1 0 0 1 184.3826 303.89)" font-family="'Roboto-Regular'" font-size="14.25">ALL</text>
+				</g>
+				<g id="scrollbar" transform="translate(1.000000, 249.000000)" sketch:type="MSShapeGroup">
+					<path id="track" fill="none" stroke="#000000" stroke-width="1.2" stroke-opacity="0.1" d="M-118,287.9h904c6.6,0,12,4.9,12,11
+						l0,0c0,6.1-5.4,11-12,11h-904c-6.6,0-12-4.9-12-11l0,0C-130,292.8-124.6,287.9-118,287.9z"/>
+					<g id="button_6_" transform="translate(907.000000, 2.000000)">
+						<circle id="Oval-1" fill-opacity="0.2" cx="-121.5" cy="296.4" r="8.5"/>
+						<path id="Shape" fill="#FFFFFF" fill-opacity="0.7" d="M-123,299.9l4-3.5l-4-3.5V299.9L-123,299.9z"/>
+					</g>
+					<g id="button_7_" transform="translate(2.000000, 2.000000)">
+						<circle id="Oval-1_1_" fill-opacity="0.2" cx="-121.5" cy="296.4" r="8.5"/>
+						<path id="Shape_1_" fill="#FFFFFF" fill-opacity="0.7" d="M-119,299.9l-4-3.5l4-3.5V299.9L-119,299.9z"/>
+					</g>
+					<g id="slider" transform="translate(877.000000, 2.000000)">
+						<path id="Rectangle-2" fill-opacity="0.2" d="M-118,287.9h5c6.6,0,12,3.8,12,8.5l0,0c0,4.7-5.4,8.5-12,8.5h-5
+							c-6.6,0-12-3.8-12-8.5l0,0C-130,291.7-124.6,287.9-118,287.9z"/>
+						<rect id="Rectangle-3" x="-120" y="292.9" fill="#FFFFFF" fill-opacity="0.7" width="1" height="7"/>
+						<rect id="Rectangle-4" x="-117" y="292.9" fill="#FFFFFF" fill-opacity="0.7" width="1" height="7"/>
+						<rect id="Rectangle-5" x="-113" y="292.9" fill="#FFFFFF" fill-opacity="0.7" width="1" height="7"/>
+					</g>
+				</g>
+				<g id="tooltip" transform="translate(448.000000, 88.000000)">
+					<polygon id="tooltip-arrow" sketch:type="MSShapeGroup" fill-opacity="0.8" points="-23.5,353.9 -20,346.9 -27,346.9 					">
+					</polygon>
+					<path id="tooltip-container" sketch:type="MSShapeGroup" fill-opacity="0.8" d="M-127.6,287.9H80.6c1.3,0,2.4,1.1,2.4,2.4v54.2
+						c0,1.3-1.1,2.4-2.4,2.4h-208.2c-1.3,0-2.4-1.1-2.4-2.4v-54.2C-130,289-128.9,287.9-127.6,287.9z"/>
+					<g id="tooltip-text" transform="translate(17.000000, 9.000000)" sketch:type="MSTextLayer">
+						<text transform="matrix(1 0 0 1 -130 298.89)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="10.6509">Thursday, Apr 4, 2014</text>
+						<text transform="matrix(1 0 0 1 -130 318.89)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="12.75">Activity: 13,703,354</text>
+					</g>
+					<g id="default" sketch:type="MSShapeGroup" filter="url(#filter-2)">
+						<path d="M8,346.9v14.6l3.8-3.6l3.1,6.1h1.2c0,0,0.8-0.8,0.6-1.2c-0.9-2-3.1-6.1-3.1-6.1H18L8,346.9z"/>
+						<path fill="none" stroke="#FFFFFF" stroke-width="1.2" d="M8,346.9v14.6l3.8-3.6l3.1,6.1h1.2c0,0,0.8-0.8,0.6-1.2
+							c-0.9-2-3.1-6.1-3.1-6.1H18L8,346.9z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
