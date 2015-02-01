@@ -1,0 +1,88 @@
+## MAIN DEFAULTS
+Options +ExecCGI -Indexes
+DirectoryIndex index.html index.htm index.php
+DefaultLanguage en-US
+AddDefaultCharset UTF-8
+ServerSignature Off
+
+####################################################
+
+## ENVIRONMENT VARIABLES
+SetEnv PHPRC /webroot/includes
+SetEnv TZ America/New_York
+
+####################################################
+
+#ACCESS CONTROLS
+
+####################################################
+
+##REDIRECTS - MOST SPECIFIC TO LEAST SPECIFIC
+
+Redirect 301 /10-natural-laws-of-the-crypto-asset-universe/ http://bitshares.org/blog/10-natural-laws-of-the-crypto-asset-universe/
+Redirect 301 /a-bitrose-by-any-other-name/ http://bitshares.org/blog/a-bitrose-by-any-other-name/
+Redirect 301 /a-turing-test-for-virtual-miners/ http://bitshares.org/blog/a-turing-test-for-virtual-miners/
+Redirect 301 /angel-minersan-environmentally-friendly-solution/ http://bitshares.org/blog/angel-minersan-environmentally-friendly-solution/
+Redirect 301 /bitshares-airdrop-theory/ http://bitshares.org/blog/bitshares-airdrop-theory/
+Redirect 301 /bitshares-demystified/ http://bitshares.org/blog/bitshares-demystified/
+Redirect 301 /bitshares-guide/ http://bitshares.org/blog/bitshares-guide/
+Redirect 301 /bitshares-prototypes-much-more-than-an-altcoin/ http://bitshares.org/blog/bitshares-prototypes-much-more-than-an-altcoin/
+Redirect 301 /bitshares-reloaded/ http://bitshares.org/blog/bitshares-reloaded/
+Redirect 301 /bitshares-savings-joins-bitcoin-checking/ http://bitshares.org/blog/bitshares-savings-joins-bitcoin-checking/
+Redirect 301 /bitshares-the-platform/ http://bitshares.org/blog/bitshares-the-platform/
+Redirect 301 /bookie-bobs-solution-to-bitcoin-volatility/ http://bitshares.org/blog/bookie-bobs-solution-to-bitcoin-volatility/
+Redirect 301 /dac-revisited/ http://bitshares.org/blog/dac-revisited/
+Redirect 301 /dacs-a-new-breed-of-business/ http://bitshares.org/blog/dacs-a-new-breed-of-business/
+Redirect 301 /decentralized-autonomous-jedi-mind-tricks/ http://bitshares.org/blog/decentralized-autonomous-jedi-mind-tricks/
+Redirect 301 /delegated-proof-of-stake/ http://bitshares.org/blog/delegated-proof-of-stake/
+Redirect 301 /general-warning/ http://bitshares.org/blog/general-warning/
+Redirect 301 /intro-to-delegated-proof-of-stake/ http://bitshares.org/blog/intro-to-delegated-proof-of-stake/
+Redirect 301 /mrjeans-thanks-the-bitshares-community/ http://bitshares.org/blog/mrjeans-thanks-the-bitshares-community/
+Redirect 301 /overpaying-for-security/ http://bitshares.org/blog/overpaying-for-security/
+Redirect 301 /overstock-to-cryptostock/ http://bitshares.org/blog/overstock-to-cryptostock/
+Redirect 301 /own-your-identity-with-bitshares-2/ http://bitshares.org/blog/own-your-identity-with-bitshares-2/
+Redirect 301 /own-your-identity-with-bitshares/ http://bitshares.org/blog/own-your-identity-with-bitshares/
+Redirect 301 /regulation-proof-self-funding-dacs/ http://bitshares.org/blog/regulation-proof-self-funding-dacs/
+Redirect 301 /stans-thoughts-on-dpos-and-bitcoin/ http://bitshares.org/blog/stans-thoughts-on-dpos-and-bitcoin/
+Redirect 301 /the-end-of-cryptomoney/ http://bitshares.org/blog/the-end-of-cryptomoney/
+Redirect 301 /the-ideal-mining-pool/ http://bitshares.org/blog/the-ideal-mining-pool/
+Redirect 301 /the-value-proposition-of-bitshares-part-ii-bitassets/ http://bitshares.org/blog/the-value-proposition-of-bitshares-part-ii-bitassets/
+Redirect 301 /the-value-proposition-of-bitsharesx-part-i-core-technology/ http://bitshares.org/blog/the-value-proposition-of-bitsharesx-part-i-core-technology/
+Redirect 301 /virtual-mining/ http://bitshares.org/blog/virtual-mining/
+Redirect 301 /watch-for-falling-pts/ http://bitshares.org/blog/watch-for-falling-pts/
+Redirect 301 /what-is-bitshares-x/ http://bitshares.org
+Redirect 301 /what-is-proof-of-stake/ http://bitshares.org/blog/what-is-proof-of-stake/
+Redirect 301 /blogchain/ http://bitshares.org/blog/
+Redirect 301 /industries/banking/ http://bitshares.org
+Redirect 301 /industries/voting/ https://followmyvote.com/
+Redirect 301 /industries/music/ http://peertracks.com/
+Redirect 301 /about/ http://bitshares.org/vision
+Redirect 301 /bitshares-trust/ http://bitshares.org/resources/distribution
+Redirect 301 /community-map/ http://bitshares.org/delegates
+Redirect 301 /delegated-proof-of-stake-2/ http://bitshares.org/blog/delegated-proof-of-stake/
+Redirect 301 /developer-landing/ http://bitshares.org/delegates
+Redirect 301 /downloads/ http://bitshares.org/resources/downloads
+Redirect 301 /faq-2/ http://bitshares.org/how-it-works
+Redirect 301 /faq/ http://bitshares.org/how-it-works
+Redirect 301 /home-2/ http://bitshares.org
+Redirect 301 /partners/ http://bitshares.org/partners
+Redirect 301 /press/ http://bitshares.org/press
+Redirect 301 /start/ http://bitshares.org/get-started
+Redirect 301 /stay-tuned/ http://bitshares.org/newsletter
+Redirect 301 /talks/ http://bitshares.org/vision
+Redirect 301 /team/ http://bitshares.org/delegates
+
+####################################################
+
+##REWRITES - MOST SPECIFIC TO LEAST SPECIFIC
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) $1.php [L]
+
+# NO WWW   http://www. becomes always http://
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+####################################################
