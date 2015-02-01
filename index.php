@@ -26,7 +26,7 @@ include 'inc/header.php';
             <ul class="button-group round right ">
              <li><a href="/how-it-works" class="tiny awesome button split secondary">EXPLORE<span  data-dropdown="drop"></span></a>
                 <ul id="drop" class="f-dropdown" data-dropdown-content>
-                 <li><a href="/how-it-works">How it works</a></li>
+                 <li><a href="/how-it-works">How It Works</a></li>
                  <li><a href="/get-started">Get started!</a></li> 
                   <li><a href="https://bitsharestalk.org/index.php?board=45.0" target="_blank">Helpdesk / Forum</a></li> 
                 </ul>
@@ -40,25 +40,7 @@ include 'inc/header.php';
           <h1>BitShares Decentralized Exchange</h1>
           <h4 class="subheader">Trade Dollars, Gold, Bitcoin, and other derivative assets without counterparty risk.</h4>
           <a class=" round button awesome orange" href="../get-started"><i class="openacc"></i>OPEN YOUR ACCOUNT</a><br>
-          <a class="awesome tiny risks" href="#" data-reveal-id="risks">What are the risks?</a>
-          <div id="risks" style="font-size: 1rem;" class="text-primary reveal-modal small" data-reveal>
-            <h2>Risks</h2>
-          
-            <p class="subheader">Like all fincial systems, trading on the bitshares platform comes with risks.</p>
-            <hr>
-            <p>
-           Besides the typical risks associated with using a cryptocurrency, like losing your private keys or loss of funds due to implementation bugs, bitAssets on the Bitshares network come with systemic risk of global undercollateralization.</p>
-            
-             <p>BitAssets are similar to a contract for a difference where one position (the bitAsset, like bitUSD) is fungible across all contracts and the other position (the BTS) is forced to cover every 30 days or if the price moves too far. This is the reason there is systemic demand for bitAssets which can support their price.</p>
-            
-             <p>Shorting a bitAsset into existence requires <span class="label awesome alert">300% collateral </span> (and for there to be no bitAsset sellers below the price feed from external exchanges), and margin calls occur at <span class="label awesome alert">200% collateralization. </span> This is to try to ensure that the market engine will always be able to buy back a bitAsset up to its true price according to the price feeds. These rules are very conservative, but there is nothing that prevents the market from very quickly changing its valuation of BTS so that the market engine cannot buy back a bitAsset for 100% value.</p>
-            
-             <p>In short, a bitAsset is best understood to be a claim for BTS on the mininimum of the price of the asset it is supposed to track and the minimal collateral across all short positions for that asset, with the system designed in a way that attempts to minimize the probability of ever having insufficient collateral.</p>
-            
-             <p>Note that it is the *speed* of the price change, and not the magnitude, that leads to undercollateralization. Historically, BTS has seen falls of over 4x against the dollar, while maintaining a collateral ratio of above 200% for bitUSD. This is because as the price falls, bitUSD is bought back and destroyed while new shorts enter with fresh collateral.</p>
-            <hr>
-            <a  class="button tiny awesome close-risks right">I understand the risks!</a>
-          </div>
+       
           </center>
           </div> 
         </div>
@@ -152,7 +134,7 @@ include 'inc/header.php';
               <i class="fi-lock size-36 icon-c"></i>
               </div>
             <div class="large-10 medium-10 small-10 columns">
-            <h4>Secure & Private</h4>
+            <h4>Private & Secure</h4>
               <p>You hold primary control of the access keys to your funds,
               so they can never be stolen, confiscated, or moved by 
               anyone without your permission. No personal details are required
@@ -165,7 +147,7 @@ include 'inc/header.php';
               <i class="fi-graph-trend size-36 icon-c"></i>
               </div>
             <div class="large-10 medium-10 small-10 columns">
-            <h4>Counterparty-Free</h4>
+            <h4>No Counterparty Risk</h4>
               <p>The BitShares Exchange operates entirely on the 
               blockchain, so unlike central exchanges it can never be 
               shut down, breached, or run away with users funds. All balances 
