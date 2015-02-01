@@ -141,7 +141,7 @@ include 'inc/header.php';
      <p><img alt="Faucet complete" src="../assets/images/get-started/8_faucet_complete.png"></p>
      <p class="panel  ">
      <i>
-     <span class="label awesome ">NOTE:</span> Regardless of whether or not you chose to share your new account, your account will automatically and instantly registered on the <a href="http://www.bitsharesblocks.com/accounts" target="_blank">blockchain.</a></i>
+     <span class="label awesome ">NOTE:</span> Regardless of whether or not you chose to share your new account, your account will automatically and instantly be registered on the <a href="http://www.bitsharesblocks.com/accounts" target="_blank">blockchain.</a></i>
       </p>
      <p>When you return to your wallet, your account should be shown as a Registered account:</p>
      <p><img alt="Account registered" src="../assets/images/get-started/10_account_registered_arrow.png"></p>
@@ -180,7 +180,7 @@ include 'inc/header.php';
          <p class="panel  ">
          <i><span class="label awesome">NOTE:</span> We recommend backing up your wallet to one or more USB sticks and storing them in a safe location. As long as you have access to this first backup you should be able to recover any accounts and balances that you have in the future. Just be sure you don’t forget your wallet password from the first step.</i>
          </p>
-         <p>At this point, the BitShares application will ask you for a location to save your wallet file. Selection the location of your choosing, click Save, and you are done!</p>
+         <p>At this point, the BitShares application will ask you for a location to save your wallet file. Select the location of your choosing, click Save, and you are done!</p>
          <p><img alt="Optional - Save Wallet File" src="../assets/images/get-started/12_save_backup.png"></p>
          <p class="panel">
          <i><span class="label awesome">NOTE:</span> While you only have to do this once to recover your balances, we recommend that you do this periodically to avoid losing your transaction history.</i>
