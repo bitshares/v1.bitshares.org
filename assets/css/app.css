@@ -1,6 +1,5 @@
 /* Custom Variables - CASS / BTS */
 @import url(http://fonts.googleapis.com/css?family=Roboto:700,400,300,200,100);
-@import url("//hello.myfonts.net/count/2d1432");
 meta.foundation-version {
   font-family: "/5.5.0/"; }
 
@@ -6690,18 +6689,6 @@ th.hide-for-touch {
   top: 0;
   width: 225px; }
 
-@font-face {
-  font-family: 'ProximaNovaSoft-Medium';
-  src: url("webfonts/2D1432_0_0.eot");
-  src: url("webfonts/2D1432_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2D1432_0_0.woff2") format("woff2"), url("webfonts/2D1432_0_0.woff") format("woff"), url("webfonts/2D1432_0_0.ttf") format("truetype"), url("webfonts/2D1432_0_0.svg#wf") format("svg"); }
-@font-face {
-  font-family: 'ProximaNovaSoft-Semibold';
-  src: url("webfonts/2D1432_1_0.eot");
-  src: url("webfonts/2D1432_1_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2D1432_1_0.woff2") format("woff2"), url("webfonts/2D1432_1_0.woff") format("woff"), url("webfonts/2D1432_1_0.ttf") format("truetype"), url("webfonts/2D1432_1_0.svg#wf") format("svg"); }
-@font-face {
-  font-family: 'ProximaNovaSoft-Bold';
-  src: url("webfonts/2D1432_2_0.eot");
-  src: url("webfonts/2D1432_2_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2D1432_2_0.woff2") format("woff2"), url("webfonts/2D1432_2_0.woff") format("woff"), url("webfonts/2D1432_2_0.ttf") format("truetype"), url("webfonts/2D1432_2_0.svg#wf") format("svg"); }
 /* Proxima Nova Soft - license */
 .ProximaNovaSoft-Medium {
   font-family: ProximaNovaSoft-Medium; }

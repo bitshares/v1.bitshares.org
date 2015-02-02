@@ -61,8 +61,9 @@ include 'inc/header.php';
          </div>
          </div>
     </div>
-</section>
       </header>
+</section>
+    
       <!--// End Header Section  -->
 
  
@@ -80,25 +81,26 @@ include 'inc/header.php';
        <div class="text-left small-only-text-center large-7 medium-7 small-12 columns">
        <img style="max-width: 480px;width: 94%;height: auto;" src="../assets/images/home/btn-bitassets.svg">
        </div>
-       </a>
- </div>          
+     
+ </div> 
+   </a>         
 </div>
 
 
-<!--     <div class="row ">
+<!--<div class="row ">
      <center>
          
          
-        <!-- Priceticker  --*>
-         <!--    <div class="large-12 columns">
+        
+         <div class="large-12 columns">
          <ul class="small-block-grid-5">
          <li><span class="label awesome" id="USD"></span></li>
          <li><span class="label awesome" id="BTC"></span></li>  
          <li><span class="label awesome" id="CNY"></span></li>
          <li><span class="label awesome" id="GOLD"></span></li>
          <li><span class="label awesome" id="EUR"></span></li>
-         </ul>--*>
-          <!--// Priceticker  --*>
+         </ul>
+        
          
          <div class="large-12 columns">
            <h4 class="label awesome">USD Price history</h4>
@@ -214,7 +216,7 @@ include 'inc/header.php';
               </div>
              
           
-            
+   </div>         
 </section>
   
 
