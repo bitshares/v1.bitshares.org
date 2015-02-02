@@ -6,6 +6,7 @@ $section_meta_keywords = "";
 include '../inc/header.php';
 
 ?>
+
 <body >
 <div class="wrapper">
 <?php include("../inc/nav.php");?>
@@ -59,7 +60,7 @@ include '../inc/header.php';
 <p>The BitShares peer-to-peer network is 30,000 accounts strong and growing, made up of people with many living philosophies, but united together with the goal of securing the life, liberty, and property of all. </p>
 
 
-<a href="../get-started.php" class="button awesome ">Will you join us?</a>
+<a href="../get-started" class="button awesome ">Will you join us?</a>
 
 
 
@@ -70,6 +71,148 @@ include '../inc/header.php';
 </section>
 </div>
 <!--// End Content Section  -->  
+
+
+<script  type="text/javascript">
+// Particles Background
+
+/* DESKTOP */
+
+
+function pJS_desktop(){
+
+particlesJS('particles-vision', {
+    particles: {
+      color: '#00587c',
+      shape: 'circle',
+      opacity: 0.3,
+      size: 2.5,
+      size_random: true,
+      nb: 100,
+      line_linked: {
+        enable_auto: true,
+        distance: 250,
+        color: '#00a9e0',
+        opacity: 0.5,
+        width: 1,
+        condensed_mode: {
+          enable: false,
+          rotateX: 600,
+          rotateY: 600
+        }
+      },
+      anim: {
+        enable: true,
+        speed: 1.5
+      }
+    },
+    interactivity: {
+      enable: false,
+      mouse: {
+        distance: 250
+      },
+      detect_on: 'canvas',
+      mode: 'grab',
+      line_linked: {
+        opacity: 0.5
+      },
+      events: {
+        onclick: {
+          push_particles: {
+            enable: true,
+            nb: 4
+          }
+        }
+      }
+    },
+    retina_detect: true
+});
+}
+
+/* MOBILE / TABLET */
+
+function pJS_mobile(){
+  particlesJS('particles-vision', {
+  particles: {
+      color: '#00587c',
+      shape: 'circle',
+      opacity: 0.3,
+      size: 2.5,
+      size_random: true,
+      nb: 40,
+      line_linked: {
+        enable_auto: true,
+        distance: 250,
+        color: '#00a9e0',
+        opacity: 0.5,
+        width: 1,
+        condensed_mode: {
+          enable: false,
+          rotateX: 600,
+          rotateY: 600
+        }
+      },
+      anim: {
+        enable: true,
+        speed: 1.5
+      }
+    },
+    interactivity: {
+      enable: false,
+      mouse: {
+        distance: 250
+      },
+      detect_on: 'canvas',
+      mode: 'grab',
+      line_linked: {
+        opacity: 0.5
+      },
+      events: {
+        onclick: {
+          push_particles: {
+            enable: true,
+            nb: 4
+          }
+        }
+      }
+    },
+    retina_detect: true
+});
+}
+
+/* LAUNCH */
+
+if(window.innerWidth > 1100){
+  pJS_desktop();
+}else{
+  pJS_mobile();
+}
+
+/* on resize */
+
+window.addEventListener('resize', function() {
+  checkOnResize();
+}, true);
+
+function checkOnResize(){
+  if(window.innerWidth > 1100){
+    if(pJS.particles.nb != 150){
+      console.log('desktop mode')
+      pJS.fn.vendors.destroy();
+      pJS_desktop();
+    }
+  }else{
+    if(pJS.particles.nb == 150){
+      console.log('mobile mode');
+      pJS.fn.vendors.destroy();
+      pJS_mobile();
+    }
+  }
+}
+
+
+</script>
+
 <?php
 include("../inc/footer.php");
 ?>

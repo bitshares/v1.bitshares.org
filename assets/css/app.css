@@ -1,5 +1,7 @@
+@charset "UTF-8";
 /* Custom Variables - CASS / BTS */
 @import url(http://fonts.googleapis.com/css?family=Roboto:700,400,300,200,100);
+@import url("//hello.myfonts.net/count/2d3a77");
 meta.foundation-version {
   font-family: "/5.5.0/"; }
 
@@ -6689,6 +6691,52 @@ th.hide-for-touch {
   top: 0;
   width: 225px; }
 
+/**
+ * @license
+ * MyFonts Webfont Build ID 2964087, 2015-02-02T09:06:57-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: ProximaNovaSoft-Medium by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova-soft/medium/
+ * 
+ * Webfont: ProximaNovaSoft-Semibold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova-soft/semibold/
+ * 
+ * Webfont: ProximaNovaSoft-Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova-soft/bold/
+ * 
+ * Webfont: ProximaNovaSoft-Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova-soft/regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2964087
+ * Licensed pageviews: 1,000,000
+ * Webfonts copyright: Copyright (c) Mark Simonson, 2010. All rights reserved.
+ * 
+ * © 2015 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: 'ProximaNovaSoft-Medium';
+  src: url("webfonts/2D3A77_0_0.eot");
+  src: url("webfonts/2D3A77_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2D3A77_0_0.woff2") format("woff2"), url("webfonts/2D3A77_0_0.woff") format("woff"), url("webfonts/2D3A77_0_0.ttf") format("truetype"), url("webfonts/2D3A77_0_0.svg#wf") format("svg"); }
+@font-face {
+  font-family: 'ProximaNovaSoft-Semibold';
+  src: url("webfonts/2D3A77_1_0.eot");
+  src: url("webfonts/2D3A77_1_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2D3A77_1_0.woff2") format("woff2"), url("webfonts/2D3A77_1_0.woff") format("woff"), url("webfonts/2D3A77_1_0.ttf") format("truetype"), url("webfonts/2D3A77_1_0.svg#wf") format("svg"); }
+@font-face {
+  font-family: 'ProximaNovaSoft-Bold';
+  src: url("webfonts/2D3A77_2_0.eot");
+  src: url("webfonts/2D3A77_2_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2D3A77_2_0.woff2") format("woff2"), url("webfonts/2D3A77_2_0.woff") format("woff"), url("webfonts/2D3A77_2_0.ttf") format("truetype"), url("webfonts/2D3A77_2_0.svg#wf") format("svg"); }
+@font-face {
+  font-family: 'ProximaNovaSoft-Regular';
+  src: url("webfonts/2D3A77_3_0.eot");
+  src: url("webfonts/2D3A77_3_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2D3A77_3_0.woff2") format("woff2"), url("webfonts/2D3A77_3_0.woff") format("woff"), url("webfonts/2D3A77_3_0.ttf") format("truetype"), url("webfonts/2D3A77_3_0.svg#wf") format("svg"); }
 /* Proxima Nova Soft - license */
 .ProximaNovaSoft-Medium {
   font-family: ProximaNovaSoft-Medium; }

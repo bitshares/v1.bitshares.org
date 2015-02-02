@@ -70,10 +70,11 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     <link rel="stylesheet" href="../assets/css/foundation-icons.css" />
     <link rel="stylesheet" href="../assets/css/animate.css" />
     <script src="../bower_components/modernizr/modernizr.js"></script>
+
 <!--
 /**
  * @license
- * MyFonts Webfont Build ID 2954270, 2015-01-15T16:03:55-0500
+ * MyFonts Webfont Build ID 2964087, 2015-02-02T09:06:57-0500
  * 
  * The fonts listed in this notice are subject to the End User License
  * Agreement(s) entered into by the website owner. All other parties are 
@@ -84,6 +85,9 @@ $page = basename($_SERVER['SCRIPT_NAME']);
  * Webfont: ProximaNovaSoft-Medium by Mark Simonson
  * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova-soft/medium/
  * 
+ * Webfont: ProximaNovaSoft-Semibold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova-soft/semibold/
+ * 
  * Webfont: ProximaNovaSoft-Bold by Mark Simonson
  * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova-soft/bold/
  * 
@@ -91,24 +95,17 @@ $page = basename($_SERVER['SCRIPT_NAME']);
  * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova-soft/regular/
  * 
  * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2954270
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2964087
  * Licensed pageviews: 1,000,000
  * Webfonts copyright: Copyright (c) Mark Simonson, 2010. All rights reserved.
  * 
  * © 2015 MyFonts Inc
-*/-->
+*/
+
+-->
 
 <?php include("ga-scripts.php");?>
 
-
-<!--//  load the webfonts -->
-<script type="text/javascript">
-// change this to false if you're having trouble with WOFFs
-var woffEnabled = true;
-// uncomment this and set it to the path where your webfont directory is
-var customPath = "../assets/css/";
-</script>
-<script type="text/javascript" src="../assets/js/bitshares.js"></script>
 
 
 </head>

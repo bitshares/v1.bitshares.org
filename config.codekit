@@ -47,15 +47,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/css\/webfonts\/svg_test.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/webfonts\/svg_test.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/assets\/images\/bg-footer.png": {
 		"fileType": 32768,
 		"ignore": 0,
