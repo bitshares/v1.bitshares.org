@@ -5,7 +5,10 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 <!doctype html>
 <html class="no-js flexbox" lang="en">
   <head>
-  <meta name="google-site-verification" content="x15mu50Hulvw0P-AVXjLsLOvHYyvuhxdAUCprDi8JuA" />
+  
+  <!-- Meta -->
+    <!-- ****** Google Webmaster Tools Verification ****** -->
+    <meta name="google-site-verification" content="x15mu50Hulvw0P-AVXjLsLOvHYyvuhxdAUCprDi8JuA" />
     <script src="//cdn.optimizely.com/js/2331670385.js"></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,6 +28,17 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     <title>BitShares - Decentralized Exchange</title>
     <?php } ?>
     <title>BitShares Distributed Exchange</title>
+    
+    <!-- ****** Meta Facebok Open Graph ****** -->
+    <meta property="og:title" content="BitShares – Decentralized Exchange"/>
+    <meta property="og:image" content="../media/social/fb/fb_og_image.png"/>
+    <meta property="og:site_name" content="BitShares.org"/>
+    <meta property="og:description" content="Trade Dollars, Gold, Bitcoin, and other derivative assets without counterparty risk."/>
+    	
+     <!--//  Meta -->
+    
+    
+    
     
     <!-- ******Favicons ****** -->
     	<link rel="shortcut icon" href="../assets/images/favicon/favicon.ico">
@@ -48,6 +62,8 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     	<meta name="msapplication-TileImage" content="../assets/images/favicon/favicon-144.png">
     	<meta name="msapplication-config" content="../assets/images/favicon/browserconfig.xml">
     	<!-- ****** Favicons ****** -->
+    
+    
     
     <link rel="stylesheet" href="../assets/css/app.css" />
     <link rel="stylesheet" href="../assets/css/lab.css" />

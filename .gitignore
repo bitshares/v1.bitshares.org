@@ -1,0 +1,4 @@
+*.DS_Store
+*.codekit_cache
+*.bowerrc
+*.sass_cache

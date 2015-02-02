@@ -43,7 +43,7 @@ include '../inc/header.php';
 <div class="large-12 medium-12 small-12 columns">
 <!--<img class="show-for-medium-up" style="width: 100%; height: auto; opacity: 0.6;"src="../assets/images/bg-trianlge-mesh-sm.svg">-->
 
-<div id="particles-vision" ></div>
+<div id="particles-vision"></div>
    <script src="../assets/js/particles.js"></script>
 
 </div>

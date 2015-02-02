@@ -4912,6 +4912,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/how-it-works.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/how-it-works.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/inc\/footer.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4975,6 +4984,61 @@
 		"initialSize": 95003,
 		"inputAbbreviatedPath": "\/media\/ads\/bitusd\/banner_whats_is_bitUSD_336x280.png",
 		"outputAbbreviatedPath": "\/media\/ads\/bitusd\/banner_whats_is_bitUSD_336x280.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/social\/fb\/fb_avatar_blue_bg_light.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51702,
+		"inputAbbreviatedPath": "\/media\/social\/fb\/fb_avatar_blue_bg_light.png",
+		"outputAbbreviatedPath": "\/media\/social\/fb\/fb_avatar_blue_bg_light.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/social\/fb\/fb_avatar_dblue_bg_light.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58949,
+		"inputAbbreviatedPath": "\/media\/social\/fb\/fb_avatar_dblue_bg_light.png",
+		"outputAbbreviatedPath": "\/media\/social\/fb\/fb_avatar_dblue_bg_light.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/social\/fb\/fb_avatar_dblue_gradient_bg_light.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58949,
+		"inputAbbreviatedPath": "\/media\/social\/fb\/fb_avatar_dblue_gradient_bg_light.png",
+		"outputAbbreviatedPath": "\/media\/social\/fb\/fb_avatar_dblue_gradient_bg_light.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/social\/fb\/fb_og_image.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 809401,
+		"inputAbbreviatedPath": "\/media\/social\/fb\/fb_og_image.png",
+		"outputAbbreviatedPath": "\/media\/social\/fb\/fb_og_image.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/social\/fb\/fb_top_header_bg_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 303194,
+		"inputAbbreviatedPath": "\/media\/social\/fb\/fb_top_header_bg_1.png",
+		"outputAbbreviatedPath": "\/media\/social\/fb\/fb_top_header_bg_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

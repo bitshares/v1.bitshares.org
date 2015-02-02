@@ -22,7 +22,7 @@
 <?php if ($page == 'get-started.php') { ?>
 <li > <a class="button awesome radius" href="../resources/downloads">Download</a></li>
 <?php } else { ?>
-<li > <a class="button awesome warning radius" href="../get-started">Get Started!</a></li>
+<li > <a class="button awesome success radius" href="../get-started">Get Started!</a></li>
 
 <?php } ?>
 
