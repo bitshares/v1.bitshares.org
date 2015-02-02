@@ -25,6 +25,30 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     <title>BitShares - Decentralized Exchange</title>
     <?php } ?>
     <title>BitShares Distributed Exchange</title>
+    
+    <!-- ******Favicons ****** -->
+    	<link rel="shortcut icon" href="../assets/images/favicon/favicon.ico">
+    	<link rel="icon" sizes="64x64" href="../assets/images/favicon/favicon.ico">
+    	<link rel="icon" type="image/png" sizes="196x196" href="../assets/images/favicon/favicon-192.png">
+    	<link rel="icon" type="image/png" sizes="160x160" href="../assets/images/favicon/favicon-160.png">
+    	<link rel="icon" type="image/png" sizes="96x96" href="../assets/images/favicon/favicon-96.png">
+    	<link rel="icon" type="image/png" sizes="64x64" href="../assets/images/favicon/favicon-64.png">
+    	<link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon/favicon-32.png">
+    	<link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon/favicon-16.png">
+    	<link rel="apple-touch-icon" href="../assets/images/favicon/favicon-57.png">
+    	<link rel="apple-touch-icon" sizes="114x114" href="../assets/images/favicon/favicon-114.png">
+    	<link rel="apple-touch-icon" sizes="72x72" href="../assets/images/favicon/favicon-72.png">
+    	<link rel="apple-touch-icon" sizes="144x144" href="../assets/images/favicon/favicon-144.png">
+    	<link rel="apple-touch-icon" sizes="60x60" href="../assets/images/favicon/favicon-60.png">
+    	<link rel="apple-touch-icon" sizes="120x120" href="../assets/images/favicon/favicon-120.png">
+    	<link rel="apple-touch-icon" sizes="76x76" href="../assets/images/favicon/favicon-76.png">
+    	<link rel="apple-touch-icon" sizes="152x152" href="../assets/images/favicon/favicon-152.png">
+    	<link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon/favicon-180.png">
+    	<meta name="msapplication-TileColor" content="#FFFFFF">
+    	<meta name="msapplication-TileImage" content="../assets/images/favicon/favicon-144.png">
+    	<meta name="msapplication-config" content="../assets/images/favicon/browserconfig.xml">
+    	<!-- ****** Favicons ****** -->
+    
     <link rel="stylesheet" href="../assets/css/app.css" />
     <link rel="stylesheet" href="../assets/css/lab.css" />
     <link rel="stylesheet" href="../assets/css/foundation-icons.css" />

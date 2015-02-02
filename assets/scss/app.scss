@@ -130,11 +130,17 @@ background-color: #e33100;
 background-color: #a9014b;
 }
 .orange.awesome {
-background-color: linear-gradient(-180deg, #FAD961 0%, #F76B1C 100%);
+ background-color: linear-gradient(-180deg, #B4EC51 0%, #429321 100%);
 }
 .yellow.awesome {
 background-color: #ffb515;
-}      
+}     
+
+.green.awesome {
+
+ background-color: $gradient-orange;
+
+ }
 
 h1, h2 { 
 	font-family: $proxima-soft-semb; 
@@ -177,11 +183,19 @@ a.outline:hover {
   background-image:  $gradient-orange;
   }
   
-
-
 .orange:hover {
     background-image:  $gradient-orange-h;
   }
+
+  
+.green {
+  background-image:  $gradient-green;
+  }
+  
+.green:hover {
+  background-image:  $gradient-green-h;
+  }
+
 
 
 h4 {

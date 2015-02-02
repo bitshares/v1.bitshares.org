@@ -6126,6 +6126,9 @@ th.hide-for-touch {
 .yellow.awesome {
   background-color: #ffb515; }
 
+.green.awesome {
+  background-color: linear-gradient(-180deg, #B4EC51 0%, #429321 100%); }
+
 h1, h2 {
   font-family: ProximaNovaSoft-Semibold;
   font-style: normal; }
@@ -6743,7 +6746,8 @@ th.hide-for-touch {
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25); }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  font-family: ProximaNovaSoft-Regular, Roboto; }
 
 /* Sizes ---------- */
 .small.awesome {
@@ -6767,10 +6771,13 @@ th.hide-for-touch {
   background-color: #a9014b; }
 
 .orange.awesome {
-  background-color: linear-gradient(-180deg, #FAD961 0%, #F76B1C 100%); }
+  background-color: linear-gradient(-180deg, #B4EC51 0%, #429321 100%); }
 
 .yellow.awesome {
   background-color: #ffb515; }
+
+.green.awesome {
+  background-color: linear-gradient(-180deg, #FAD961 0%, #F76B1C 100%); }
 
 h1, h2 {
   font-family: ProximaNovaSoft-Semibold;
@@ -6808,6 +6815,12 @@ a.outline:hover {
 
 .orange:hover {
   background-image: linear-gradient(-180deg, #FAD961 0%, #D54D01 100%); }
+
+.green {
+  background-image: linear-gradient(-180deg, #B4EC51 0%, #429321 100%); }
+
+.green:hover {
+  background-image: linear-gradient(-180deg, #A5D94A 0%, #1F6C01 100%); }
 
 h4 {
   font-family: ProximaNovaSoft-Regular;
@@ -7231,7 +7244,7 @@ p {
     color: #dedede; }
   .generic-content p {
     font-size: 14px;
-    font-family: Roboto;
+    font-family: ProximaNovaSoft-Regular;
     font-weight: 300;
     -webkit-transition: width 0.7s ease;
     -moz-transition: width 0.7s ease;

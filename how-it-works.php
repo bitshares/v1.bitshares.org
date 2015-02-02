@@ -86,9 +86,9 @@ include 'inc/header.php';
     
   <h3>User-Issued Assets and Decentralized Applications</h3>
      <h4 class="subheader">The BitShares Decentralized Exchange also trades a class of tokens called User-Issued Assets or UIAs, and each UIA is can be fully customized fit the requirements of its issuer.</h4>
-     <p>Gateway assets be issued by established crypto-currency exchanges and money transmitters who want to become gateways into and out of BitShares. Read more on the Intro for Gateways.</p>
+     <p>Gateway assets be issued by established crypto-currency exchanges and money transmitters who want to become gateways into and out of BitShares. <a href="../resources/gateways">Read more on the Intro for Gateways.</a></p>
      
-     <p>Companies can issue company stock directly onto the bitshares blockchain, and BitShares UIA can be programmed to fully comply with existing regulatory and legal guidelines. Read the blog post on crypto-stocks.</p>
+     <p>Companies can issue company stock directly onto the bitshares blockchain, and BitShares UIA can be programmed to fully comply with existing regulatory and legal guidelines. <a href="../blog/overstock-to-cryptostock/">Read the blog post on crypto-stocks.</a></p>
      
      <p>Other uses for UIA may include rewards vouchers, coupons, third party currencies, credits, product receipts, crowdfunding tokens, warranty vouchers, and many more.</p>
      

@@ -61,7 +61,7 @@ include 'inc/header.php';
   <h3>Get Hired by the Blockchain</h3>
      <h4 class="subheader">BitShares uses a modification of DPOS which allows shareholder voting for paid delegates.</h4>
        <hr>
-      <p>With each block signature, a delegate may be authorized to issue new BTS into the network at a fixed rate ( with a total maximum network dilution cap of 6% annually) [hyperlink: vesting/rate halving explanation], similar to the way a company uses stock dilution to raise capital for expansion. This is helping to “bootstrap” the growth of BitShares, and is paving the way for a new breed of talented visionaries who work directly for the BitShares blockchain. </p>
+      <p>With each block signature, a delegate may be authorized to issue new BTS into the network at a fixed rate ( with a total maximum network dilution cap of 6% annually), similar to the way a company uses stock dilution to raise capital for expansion. This is helping to “bootstrap” the growth of BitShares, and is paving the way for a new breed of talented visionaries who work directly for the BitShares blockchain. </p>
      
       <p>BitShares holders are very eager to utilize this tool for growth, and are constantly looking for fresh entrepreneurs. The need for qualified web and c++ developers, creative marketing strategists and multimedia producers is mobilizing BTS holders in a continuing effort to vote for the brightest and most innovative delegate teams and projects. If you have any of these skills, or a great idea for contributing to the growth and value of BitShares, please visit <a href="http://www.bitsharestalk.org " target="_blank">www.bitsharestalk.org</a> and join the conversation!</p>
      

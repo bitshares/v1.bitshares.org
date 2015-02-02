@@ -39,7 +39,7 @@ include 'inc/header.php';
           <center>
           <h1>BitShares Decentralized Exchange</h1>
           <h4 class="subheader">Trade Dollars, Gold, Bitcoin, and other derivative assets without counterparty risk.</h4>
-          <a class=" round button awesome orange" href="../get-started"><i class="openacc"></i>OPEN YOUR ACCOUNT</a><br>
+          <a class="round button awesome green" href="../get-started"><i class="openacc"></i>OPEN YOUR ACCOUNT</a><br>
        
           </center>
           </div> 

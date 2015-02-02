@@ -99,8 +99,8 @@ include '../inc/header.php';
 
 </div>
 <div class="row">
-<center><a class="label awesome tiny warning" href="#" data-reveal-id="risks">What are the risks?</a>
-<div id="risks" style="font-size: 1rem;" class="text-primary reveal-modal small" data-reveal>
+<center><a class="label awesome tiny warning radius" href="#" data-reveal-id="risks">What are the risks?</a>
+<div id="risks" style="font-size: 1rem;" class="text-primary reveal-modal small " data-reveal>
   <h2>Risks</h2>
 
   <p class="subheader">Like all fincial systems, trading on the bitshares platform comes with risks.</p>
@@ -110,7 +110,7 @@ include '../inc/header.php';
   
    <p>BitAssets are similar to a contract for a difference where one position (the bitAsset, like bitUSD) is fungible across all contracts and the other position (the BTS) is forced to cover every 30 days or if the price moves too far. This is the reason there is systemic demand for bitAssets which can support their price.</p>
   
-   <p>Shorting a bitAsset into existence requires <span class="label awesome alert">300% collateral </span> (and for there to be no bitAsset sellers below the price feed from external exchanges), and margin calls occur at <span class="label awesome alert">200% collateralization. </span> This is to try to ensure that the market engine will always be able to buy back a bitAsset up to its true price according to the price feeds. These rules are very conservative, but there is nothing that prevents the market from very quickly changing its valuation of BTS so that the market engine cannot buy back a bitAsset for 100% value.</p>
+   <p>Shorting a bitAsset into existence requires <span class="label awesome success">300% collateral </span> (and for there to be no bitAsset sellers below the price feed from external exchanges), and margin calls occur at <span class="label awesome success">200% collateralization. </span> This is to try to ensure that the market engine will always be able to buy back a bitAsset up to its true price according to the price feeds. These rules are very conservative, but there is nothing that prevents the market from very quickly changing its valuation of BTS so that the market engine cannot buy back a bitAsset for 100% value.</p>
   
    <p>In short, a bitAsset is best understood to be a claim for BTS on the mininimum of the price of the asset it is supposed to track and the minimal collateral across all short positions for that asset, with the system designed in a way that attempts to minimize the probability of ever having insufficient collateral.</p>
   
