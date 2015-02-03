@@ -89,7 +89,7 @@ include '../inc/header.php';
 
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/linux.svg">
 <h4>BitShares Client Linux </h4>
- <p><span class="label tiny awesome radius">32-bit/64-bit</span></p>
+ <p><span class="label tiny awesome radius">64-bit</span></p>
 
 <small class="">SHA1 = 2e6ac45b9aa52ed1952a78b24ed69f0bf9c699fc</small>
 
