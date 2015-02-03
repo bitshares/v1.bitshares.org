@@ -79,15 +79,18 @@ Redirect 301 /team/ https://bitshares.org/delegates
 
 ##REWRITES - MOST SPECIFIC TO LEAST SPECIFIC
 
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule (.*) $1.php [L]
 
 # NO WWW   http://www. becomes always http://
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://bitshares.org/$1 [R,L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) $1.php [L]
 
 
 ####################################################
