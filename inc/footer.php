@@ -99,8 +99,7 @@
        
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../bower_components/foundation/js/foundation.min.js"></script>
-    <script src="http://code.highcharts.com/stock/highstock.js"></script>
-    <script src="http://code.highcharts.com/stock/modules/exporting.js"></script>
+ 
     
     <script src="../assets/js/app.js"></script>
     

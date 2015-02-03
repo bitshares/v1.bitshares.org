@@ -1013,17 +1013,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/js\/bitshares.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/bitshares.js",
-		"outputAbbreviatedPath": "\/assets\/js\/min\/bitshares-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/assets\/js\/canvas.js": {
 		"fileType": 64,
 		"ignore": 0,
