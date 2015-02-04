@@ -28,9 +28,8 @@ $(document).foundation('joyride', 'start');
 
 function updateDEX() {
   return $.ajax({
-    url: "http://api.bitsharesblocks.com/v1/cmc",
-    jsonp: "callback",
-    dataType: "jsonp",
+    url: "https://api.bitsharesblocks.com/v1/cmc",
+    dataType: "json",
     data: {
       format: "json"
     },
@@ -40,7 +39,7 @@ function updateDEX() {
 
 function updateCMC() {
   return $.ajax({
-    url: "http://coinmarketcap-nexuist.rhcloud.com/api/bts",
+    url: "https://coinmarketcap-nexuist.rhcloud.com/api/bts",
     data: {
       format: "json"
     },
@@ -89,7 +88,7 @@ $(function() {
   var end = new Date();
   var start = new Date();
   start.setDate(start.getDate() - 10);
-  var url = "http://api.bitsharesblocks.com/v3/pricehistory/USD/";
+  var url = "https://api.bitsharesblocks.com/v3/pricehistory/USD/";
   url = url + JSON.stringify({
     start: start,
     end: end
