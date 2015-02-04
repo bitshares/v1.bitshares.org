@@ -38,7 +38,7 @@ include 'inc/header.php';
           <div class="large-12 medium-12 small-12 columns">
           <center>
           <h1>BitShares Decentralized Exchange</h1>
-          <h4 class="subheader">Trade Dollars, Gold, Bitcoin, and other derivative assets without counterparty risk.</h4>
+          <h4 class="subheader">Trade Dollars, Gold, Bitcoin, and more without counterparty risk.</h4>
           <a class="round button awesome green" href="../get-started"><i class="openacc"></i>OPEN YOUR ACCOUNT</a><br>
        
           </center>
@@ -179,7 +179,7 @@ include 'inc/header.php';
                </div>
              <div class="large-10 medium-10 small-10 columns">
                  <h4>Boundless Trading</h4>
-                   <p>Trade in Gold, Silver, Dollars, Oil, Euro, Yuan, Bitcoin & more! 
+                   <p>Trade in Gold, Silver, Dollars, Oil, Euro, Yuan, Bitcoin &amp; more! 
                    Regardless of geographic location, anyone with a smartphone 
                    or an internet connection can trade on the BitShares network. 
                    </p>
@@ -190,15 +190,13 @@ include 'inc/header.php';
                <i class="fi-thumbnails size-36 icon-c"></i>
                </div>
              <div class="large-10 medium-10 small-10 columns">
-                 <h4>Lowest Fees on Earth</h4>
+                 <h4>Lowest Trading Fees</h4>
                    <p>BitShares only charges a small fixed fee 
                    per deposit, withdrawal, or trade. 
                    At present, the fee is <i><strong>less than 3 cents</strong></i>.
                    The network does <i>not</i> charge a spread 
                    per transaction and there are <i>never</i> limits 
                    on deposits or withdrawals.
-                                      
-                   
                    </p>
                  </div>
                </div>
@@ -209,7 +207,9 @@ include 'inc/header.php';
                  </div>
              <div class="large-10 medium-10 small-10 columns">
                  <h4>Earn Interest on BitAssets</h4>
-                   <p>All BitAssets earn a variable interest rate. 
+                   <p>All BitAssets earn a variable yield derived from
+                   transaction fees, interest paid by short sellers, and
+                   other sources.
                    See the <a href="http://docs.bitshares.org" target="_blank">BitAsset whitepaper</a> for details.
                    </p>
                  </div>

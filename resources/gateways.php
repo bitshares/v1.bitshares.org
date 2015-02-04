@@ -16,8 +16,9 @@ include '../inc/header.php';
 <section class="generic-content" role="main">
 <div class="row">
 <div class="large-12 medium-12 small-12 columns">
-<h2>How it works!</h2>
-<h2 class="subheader">Any existing cryptocurrency exchange can become a BitShares Gateway and profit from trading activity on the decentralized exchange.</h2>
+<br/>
+<h2>Gateways and Bridges</h2>
+<h2 class="subheader">Any existing cryptocurrency exchange can become a BitShares Gateway or Bridge and profit from trading activity on the decentralized exchange.</h2>
 </div>
 <hr>
 </div>
@@ -43,6 +44,7 @@ include '../inc/header.php';
 <div class="right">
 <!-- Right Nav Section -->
  <ul class="nav hide-for-small side-nav  left" role="navigation">
+        <li role="menuitem"><a href="#Bridges-vs-Gateways-vs-Exchanges">Bridges vs Gateways vs Exchanges</a></li>
         <li role="menuitem"><a href="#Gateways">Gateways</a></li>
         <li role="menuitem"><a href="#Gateway-vs-Exchange">Gateway vs Exchange</a></li>
         <li role="menuitem"><a href="#Generating-Revenue-as-a-Gateway">Generating Revenue</a></li>
@@ -65,11 +67,27 @@ include '../inc/header.php';
   
    <a name="Gateways"></a>
 <div class="row ">
+  <a name="Bridges-vs-Gateways-vs-Exchanges"></a>
 <div class="large-12 medium-12 small-12 columns">
+  <h3>Bridges vs Gateways vs Exchanges</h3>
+     <h4 class="subheader"> Bridges are the future of crypto-currency exchanges for the average Joe.</h4>
+     <p>
+     A <strong>Bridge</strong> provides the service of converting between bitUSD &amp; USD, bitBTC &amp; BTC, or  bitGOLD &amp gold for a competitive fixed fee.  After the exchange is complete 
+     there are no longer an liabilities between the parties.  Over time competition among bridges will move the fee toward 0 and may one day even reach 0. The
+     most popular bridge is currently <a href="https://shapeshift.io">ShapeShift</a>.
+     </p>
+     <p>
+     A <strong>Gateway</strong> provides the services of issuing redeemable IOUs that can be traded against any asset on the BitShares exchange.  Redeemable IOU's have the advantage of having a perfect peg if the issuer is trustworthy.  Gateways are the building block that enables price discovery on the BitShares exchange.
+     </p>
+     <p>
+     An <strong>Exchange</strong> is perhaps the most familiar entity in the crypto-currency space.  Exchanges manage their own order book and only allow trading against
+     assets they choose to list.  The primary benefit of an exchange is the ability to support high frequency trading and to allow a 3rd party to take
+     responsibility for manging your private keys.
+     </p>
 
   <h3>Gateways</h3>
      <h4 class="subheader">This guide will provide a brief overview of the business opportunities available for those who wish to become a BitShares Gateway. </h4>
-     <p>A Gateway provides the service of bridging external assets such as fiat dollars, gold, silver, and bitcoin into the BitShares network. This service is critical to the success of BitShares because the vast majority of value must enter or exit the BitShares network through a Gateway or exchange.</p>
+     <p>A Gateway provides the service of bridging external assets such as fiat dollars, gold, silver, and bitcoin into the BitShares network. This service is critical to the success of BitShares because the vast majority of value must enter or exit the BitShares network through a Gateway, Bridge, or Exchange.</p>
      <p>A gateway is a trusted party that facilitates moving value into and out of the BitShares network. To do this they issue redeemable IOUs as fungible divisible assets on the BitShares block chain. If the issuer is trustworthy then those IOUs will trade at face value and therefore be useful in trade. This service is effectively that of a trusted party that facilitates trade among 3rd parties who do not know each other in much the same way that a bank issues cashiers checks so that 3rd parties can accept payment without having to worry about a personal check bouncing. Unlike a cashiers check issued by a bank, the digital IOUs issued by a gateway are far more flexible and therefore useful.</p>
      <p>The BitShares network allows anyone to issue digital assets known as User Issued Assets (UIA). These assets can be used to track shares in a company, deposits in a bank, and reward points among other uses. Once an asset has been issued it can be freely traded against all of the other asset types on the network including the fully collateralized market pegged assets known as BitAssets such as (BitUSD, BitBTC, etc.).</p>
   </div>

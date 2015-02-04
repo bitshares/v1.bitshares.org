@@ -45,18 +45,18 @@ include 'inc/header.php';
 
     
   
-     <h4 class="subheader">BitAssets, the currency of BitShares, are digital asset tokens that have eliminated the burden of price volatility. This means that bitUSD, bitEuro, bitCNY and bitGold will always trade par value for the dollar, euro, yuan and gold on crypto-currency exchanges worldwide.</h4>
+     <h4 class="subheader">BitAssets, the currency of BitShares, are digital asset tokens that have eliminated the burden of price volatility. This means that bitUSD, bitEuro, bitCNY and bitGold will always trade near par value for the dollar, euro, yuan and gold on crypto-currency exchanges worldwide.</h4>
      
       <p>BitAssets are helping businesses and shoppers avoid the hassle of having to constantly transfer their holdings back and forth between crypto and cash to evade costly price fluctuations. For traders, BitAssets are providing the opportunity to trade in the value of their favorite currency or commodity without leaving the privacy and convenience of the blockchain. And for all users, bitAssets pay a daily interest rate that rivals or surpasses most savings banks.</p>
      
- <p>BitAssets pay interest because of the BitShares market-pegged asset trading engine, which gives users the power to issue currency or commodity derivative assets through peer-to-peer trades that secure BTS as collateral for the backing of fungible bitAsset tokens. These trades happen inside the trust-free exchange that is hardwired into the BitShares blockchain. The end result of these swaps is the creation of 300% collateralized bitAsset tokens that each pay a proportional dividend of the combined interest paid by the open short positions. Because of this, BitAsset holders have the unique privilege of earning interest on commodities such as gold, silver, and oil, as well as commonly interest bearing instruments like dollars and euro. A detailed explanation of how this works can be found in the <a href="http://docs.bitshares.org" target="_blank">BitShares market-pegged asset whitepaper.</a></p>
+ <p>BitAssets pay interest because of the BitShares market-pegged assets are lent into circulation at interest. Traders seeking leverage post bitshares as collateral equal to 3 times the value of the loan and compete to offer the highest interest rates.  Borrowing an asset so you can sell it on the market is known as shorting.  These trades happen inside the trust-free exchange that is hardwired into the BitShares blockchain. The end result of these shorts is the creation of 300% collateralized bitAsset tokens that each pay a proportional dividend to the combined interest paid by the open short positions. Because of this, BitAsset holders have the unique privilege of earning interest on commodities such as gold, silver, and oil, as well as commonly interest bearing instruments like dollars and euro. A detailed explanation of how this works can be found in the <a href="http://docs.bitshares.org" target="_blank">BitShares market-pegged asset whitepaper.</a></p>
      
-<p>The BitShares Decentralized Exchange also contains a class of tokens called UIA or user issued assets, and each UIA can be fully customized to fit the requirements of its issuer. For example, companies can issue shares of stock directly onto the bitshares blockchain, and BitShares UIA can be programmed to fully comply with existing regulatory and legal guidelines. UIA can also be issued by established crypto-currency exchanges and money transmitters who want to become <a href="../resources/gateways.php" target="_blank">gateways</a> into and out of BitShares. Other uses for UIA may include rewards vouchers, coupons, third party currencies, credits, product receipts, crowdfunding tokens, warranty vouchers, private securities, and many more.</p>
+<p>The BitShares Decentralized Exchange also contains a class of tokens called User Issued Assets or UIA for short. Each UIA can be fully customized to fit the requirements of its issuer. For example, companies can issue shares of stock directly onto the bitshares blockchain, and BitShares UIA can be programmed to fully comply with existing regulatory and legal guidelines. UIA can also be issued by established crypto-currency exchanges and money transmitters who want to become <a href="../resources/gateways.php" target="_blank">gateways</a> into and out of BitShares. Other uses for UIA may include rewards vouchers, coupons, third party currencies, credits, product receipts, crowdfunding tokens, warranty vouchers, private securities, and many more.</p>
      
      <p>BitShares Decentralized Exchange is putting freedom and security back into the hands of the people by eliminating dangerous and unfair practices like fractional reserve lending and order front running. The flexibility of BitShares UIA is bringing a diverse group of interests to the table, and interest earning bitAssets are providing opportunity for those living in volatile regions to be safe and secure in their savings. No matter your age, race, creed or occupation, the BitShares’ community is passionately committed to bringing you decentralized, free-market solutions for securing your life, liberty, and property.
      </p>
      
-     <p>The endgame for the BTS token (lowercase-b "bitshares") is to trade as equity in this profitable, decentralized network that can outcompete existing centralized solutions for basic financial services with nothing but free software and free speech.
+     <p>The endgame for the BTS token (lowercase-b "bitshares") is to trade as equity in this profitable, decentralized network that can out-compete existing centralized solutions for basic financial services with nothing but free software and free speech.
      </p>
         
   </div>
@@ -102,8 +102,8 @@ include 'inc/header.php';
 <div class="large-12 columns">
 
     
-  <h3>DPOS</h3>
-     <h4 class="subheader">Delegated Proof of Stake</h4>
+  <h3>Delegated Proof of Stake (DPOS)</h3>
+     <h4 class="subheader">A more elegant consensus algorithm for a more civilized age.</h4>
      
  <p>BitShares is secured by the Delegated Proof of Stake consensus protocol, with the BTS token (lowercase-b "bitshares") as the consensus metric. The design of this protocol seeks to maximize speed and efficiency while keeping bitshares holders in control of the block producers. DPOS as implemented in BitShares allows for 10 second blocks with an extremely low orphan block rate and can potentially scale to thousands of transactions per second. </p>
      
