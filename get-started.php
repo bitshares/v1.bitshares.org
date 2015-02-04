@@ -15,6 +15,7 @@ include 'inc/header.php';
 <section class="generic-content get-started" role="main">
 <div class="row">
 <div class="large-12 medium-12 small-12 columns">
+<br/>
 <h2>Getting started with BitShares is easy!</h2>
 <h2 class="subheader">This tutorial will walk you through the process of getting a fully functional registered account on the BitShares blockchain. </h2>
 </div>
