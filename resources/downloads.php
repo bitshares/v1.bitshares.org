@@ -57,41 +57,55 @@ include '../inc/header.php';
 
 
 
+
 </div>
 <div class="row">
 
+<a target="_blank"  href="https://github.com/BitShares/bitshares/releases">
+<div class="large-3 medium-3 small-12 columns outline text-center panel-download " >
+
+<img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/github.svg">
+<h4>BitShares Releases</h4>
+ <p><span class="label tiny awesome radius">Download via GitHub</span></p>
+
+<!--<small class="">external download</small>-->
+
+</div>
+</a>
+
+
 <a  class="download"  href="../binaries/BitShares-v0.5.3.exe" onclick="thanks();">
-<div class="large-4 medium-4 small-12 columns outline text-center panel-download">
+<div class="large-3 medium-3 small-12 columns outline text-center panel-download">
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/windows.svg">
-<h4>BitShares Client Windows</h4>
+<h4>BitShares Client</h4>
 <p><span class="label tiny awesome radius">x32-bit/64-bit</span></p>
 
 
-<small>SHA1 = e93ebd8877237493f46c109ff5e3d2bce4af65f4</small>
+<!--<small>local download</small>-->
 
 </div>
 </a>
 
 <a class="download"  href="../binaries/BitShares-0.5.3.dmg" onclick="thanks();">
-<div class="large-4 medium-4 small-12 columns outline text-center panel-download">
+<div class="large-3 medium-3 small-12 columns outline text-center panel-download">
 
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/apple.svg">
-<h4>BitShares Client Mac OS X</h4>
+<h4>BitShares Client</h4>
 <p> <span class="label tiny awesome radius">Mavericks</span></p>
 
-<small>SHA1 = 2773310e694ffa8b4f794114e25d85de9a8f5797</small>
+<!--<small>local download</small>-->
 </div>
 </a>
 
 
 <a  class="download"  href="../binaries/bitshares-0.5.3-linux-x86_64.tar.gz" onclick='thanks();'>
-<div class="large-4 medium-4 small-12 columns outline text-center panel-download" >
+<div class="large-3 medium-3 small-12 columns outline text-center panel-download" >
 
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/linux.svg">
-<h4>BitShares Client Linux </h4>
- <p><span class="label tiny awesome radius">64-bit</span></p>
+<h4>BitShares Client</h4>
+ <p><span class="label tiny awesome radius">Linux 64-bit</span></p>
 
-<small class="">SHA1 = 2e6ac45b9aa52ed1952a78b24ed69f0bf9c699fc</small>
+<!--<small class="">local download</small>-->
 
 </div>
 </a>
@@ -126,11 +140,11 @@ include '../inc/header.php';
   <div class="large-12 medium-12 small-12 columns ">
   <img class=""  style="height: 64px;margin: 24px 0 24px 0;" src="../assets/images/icons/console.svg">
   
-  <p>BitShares software is public domain, meaning BitShares has no owner. 
+  <p>BitShares software is public domain, meaning BitShares has no owner. <br>
   Once you have downloaded BitShares, installed the software, and registered your account on the blockchain, you will become part of the BitShares community. 
-  Upon joining the BitShares community, you should take pride in knowing that BitShares is open-source and can be audited by anyone so that everyone using the system can have confidence in the integrity of the network. 
-  All BitShares code can be found at the following location on github</p>
-  <center><a target="_blank" href="https://github.com/BitShares"><i class=" size-24 fi-social-github"></i></a></center>
+  Upon joining the BitShares community, you should take pride in knowing that BitShares is open-source and can be audited by anyone so that everyone using the system can have confidence in the integrity of the network. <br>
+  The BitShares source code is also available via the GitHub.</p>
+  <center><a target="_blank" href="https://github.com/BitShares"><i class=" size-36 fi-social-github"></i></a></center>
   </div>
 
   
