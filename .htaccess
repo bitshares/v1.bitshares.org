@@ -74,6 +74,10 @@ Redirect 301 /start/ https://bitshares.org/get-started
 Redirect 301 /stay-tuned/ https://bitshares.org/newsletter
 Redirect 301 /talks/ https://bitshares.org/vision
 Redirect 301 /team/ https://bitshares.org/delegates
+Redirect 301 /withdraw/ https://bitshares.org/deposit-withdraw
+Redirect 301 /deposit/ https://bitshares.org/deposit-withdraw
+Redirect 301 /withdraw https://bitshares.org/deposit-withdraw
+Redirect 301 /deposit https://bitshares.org/deposit-withdraw
 
 ####################################################
 

@@ -156,6 +156,14 @@ background-color: #2daebf;
 .red.awesome {
 background-color: #e33100;
 }
+
+.gray.awesome {
+background-color: #E1E6E8;
+color: $primary-color;
+text-shadow: 0 -1px 1px rgba(255,255,255,0.5);
+
+}
+
 .magenta.awesome {
 background-color: #a9014b;
 }

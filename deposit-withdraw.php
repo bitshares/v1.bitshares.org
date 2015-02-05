@@ -13,76 +13,132 @@ include 'inc/header.php';
   <!-- Start Content Section -->
 <section class="generic-content get-started" role="main">
 <div class="row">
-<div class="large-12 medium-12 small-12 columns">
+<div class="large-12 medium-12 small-12 columns ">
 <br/>
 <h2>How to Deposit & Withdraw with BitShares </h2>
 <h2 class="subheader"> There are many ways to move money into or out of BitShares. </h2>
 </div>
 <hr>
 </div>
+<div class="row ">
+<!--<img class="show-for-medium-up" style="width: 100%; height: auto; opacity: 0.6;"src="../assets/images/bg-trianlge-mesh-sm.svg">-->
 
-<div class="row">
-<div class="large-3 medium-3 small-12  columns right">
-   <div class="top"></div>
+<!-- Particles BTS  -->
 
-<div class="contain-to-grid  sticky fixed1">
-  <!-- <ul class="nav side-nav hide-for-small  affix" role="navigation">
-          <li role="menuitem"><a href="#Gateways">Gateways</a></li>
-          <li role="menuitem"><a href="#Gateway-vs-Exchange">Gateway vs Exchange</a></li>
-          <li role="menuitem"><a href="#Generating-Revenue-as-a-Gateway">Generating Revenue</a></li>
-          <li role="menuitem"><a href="#How-it-works">How it works</a></li>
-          <li role="menuitem"><a href="#Legal-Compliance">Legal Compliance</a></li>
-          <li role="menuitem"><a href="#Security">Security</a></li>
-          <li role="menuitem"><a href="#Unlimited-Opportunity">Unlimited Opportunity</a></li>
-          <li><hr></li>          
-        </ul>-->
+<!--<div id="particles-vision" style="height: 120px;"></div>
+   <script src="../assets/js/particles.js"></script>
 
-<nav class="top-bar" data-topbar role="navigation">
+</div>-->
+    
+<div class="large-12 columns">
+<div class="top"></div>
 
-<div class="right">
-<!-- Right Nav Section 
- <ul class="nav hide-for-small  left" role="navigation">
- 
-        <li role="menuitem"><a href="#Download-Software">Step 1 - Download Software</a></li>
-        <li role="menuitem"><a href="#Create-an-Account">Step 2 - Create Account</a></li>
-        <li role="menuitem"><a href="#Register-Account">Step 3 - Register Account</a></li>
-        <li role="menuitem"><a href="#Optional">Step 4 - Backup Wallet</a></li>
-        <li><hr></li>          
-      </ul>-->
-</div>
+<h3>Bridges</h3>
+   <h4 class="subheader">Use bridges to get in or out of BitAssets instantly without signing up for any service or giving any information </h4>
+<hr>
 
 
-</nav>
+
+<a  class="download" target="_blank" href="https://shapeshift.io">
+<div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
+<img style="height: 64px;margin: 12px 0 12px 0;" src="../assets/images/bridges/shapeshift.svg">
+<h5>Shapeshift</h5>
+<p><span class="label tiny awesome radius gray">BitUSD,BTS <i class=" size-12 fi-arrow-left"></i><i class=" size-12 fi-arrow-right"></i> BTC and more</span></p>
+
 
 
 </div>
-  </div>
+</a>
+
+<a  class="download" target="_blank" href="http://metaexchange.info/">
+<div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
+
+<img style="height: 48px;margin: 16px 0 24px 0;" src="../assets/images/icons/link.svg">
+<h5>Metaexchange</h5>
+<p><span class="label tiny awesome radius gray">BTC <i class=" size-12 fi-arrow-left"></i><i class=" size-12 fi-arrow-right"></i> BitBTC</span></p>
+
+</div>
+</a>
+
+
+
   
-  <div class="large-9 medium-8 small-12 columns " role="main">
- 
-  <h1> Bridges </h1>
-  <a href="https://shapeshift.io"><img src="https://shapeshift.io/logo.png"></a> (BitUSD,BTS <-> BTC and Other Crypto-Currencies)
-  <br/>
-  <a href="http://metaexchange.info/"><h2>Metaexchange</h2></a> (BTC <-> BitBTC)
-  <br/>
-  <a href="https://tradebts.com"><h2>TradeBTS</h2></a> (CNY <-> BitCNY)
-  <h1> Gateways </h1>
-   Coming Soon...
-  <br/>
-  <h1> Exchanges </h1>
-  <a href="https://bter.com"><img src="https://bter.com/images/logo_en.png"></a>  (USD, BTC, BitUSD, BTS)
-  <br/>
-  <a href="https://yunbi.com?lang=en"><img src="https://yunbi.com/assets/site-logo-en@2x-756912c4d9a5bef0e23b1baedacb9619.png"></a> (CNY, BTS, BTC, LTC)
-  <br/>
-  <a href="https://en.btc38.com"><img src="http://rsen.btc38.com/statics/images/v10/logo_en.png"></a> (CNY, BTC, BitCNY, BTS)
-  <br/>
-  <br/>
+
+<a  class="download" target="_blank" href="http://tradebts.com">
+<div class="large-4 medium-4 small-12 columns outline text-center panel-download " >
+<img style="height: 48px;margin: 16px 0 24px 0;" src="../assets/images/icons/link.svg">
+<h5>TradeBTS</h5>
+<p><span class="label tiny awesome radius gray">CNY <i class=" size-12 fi-arrow-left"></i><i class=" size-12 fi-arrow-right"></i> BitCNY</span></p>
+
+
+</div>
+</a>
+
+</div>
+<div class="top3"></div>
+<div class="large-12 columns ">
+<div class="top"></div>
+
+<h3>Exchanges</h3>
+<hr>
+
+<a  class="download" target="_blank" href="https://shapeshift.io">
+<div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
+<img style="height: 64px;margin: 0 0 24px 0;" src="../assets/images/exchanges/bter-icon.png">
+<h5>Bter</h5>
+<p><span class="label tiny awesome radius gray">USD, BTC, BitUSD, BTS</span></p>
+
+
+
+</div>
+</a>
+
+<a  class="download" target="_blank" href="http://metaexchange.info/">
+<div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
+
+<img style="height: 48px;margin: 16px 0 24px 0;" src="../assets/images/exchanges/yunbi-icon.svg">
+<h5>Yunbi</h5>
+<p><span class="label tiny awesome radius gray">CNY, BTS, BTC, LTC</span></p>
+
+</div>
+</a>
+
+
+
   
-   
-</div></div>
-  
+
+<a  class="download" target="_blank" href="http://tradebts.com">
+<div class="large-4 medium-4 small-12 columns outline text-center panel-download " >
+<img style="height: 64px;margin: 0 0 24px 0;" src="../assets/images/exchanges/btc38-icon.png">
+<h5>BTC38</h5>
+<p><span class="label tiny awesome radius gray">CNY, BTC, BitCNY, BTS</span></p>
+
+
+</div>
+</a>
+
+
+</div>
+
+
+<div class="top3"></div>
+<div class="large-12 columns ">
+<div class="top3"></div>
+
+<h3>Gateways</h3>
+<hr>
+
+
+<p><span class="label tiny awesome radius gray">coming soon</span></p>
+
+</div>
+
+
+
+</div>
+
+
 </section>
-<!--// End Content Section  -->  
 </div>
 
 <?php

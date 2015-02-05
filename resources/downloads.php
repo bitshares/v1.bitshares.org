@@ -117,7 +117,7 @@ include '../inc/header.php';
 <div id="risks" style="font-size: 1rem;" class="text-primary reveal-modal small " data-reveal>
   <h2>Risks</h2>
 
-  <p class="subheader">Like all fincial systems, trading on the bitshares platform comes with risks.</p>
+  <p class="subheader">Like all financial systems, trading on the bitshares platform comes with risks.</p>
   <hr>
   <p>
  Besides the typical risks associated with using a cryptocurrency, like losing your private keys or loss of funds due to implementation bugs, bitAssets on the Bitshares network come with systemic risk of global undercollateralization.</p>
