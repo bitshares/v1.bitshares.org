@@ -74,7 +74,7 @@ include '../inc/header.php';
 </a>
 
 
-<a  class="download"  href="../binaries/BitShares-v0.6.1.exe" onclick="thanks();">
+<a  class="download"  href="../binaries/BitShares-v0.6.1.exe" onclick="thanks();" >
 <div class="large-3 medium-3 small-12 columns outline text-center panel-download">
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/windows.svg">
 <h4>BitShares Client</h4>
