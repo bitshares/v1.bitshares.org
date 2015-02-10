@@ -51,7 +51,7 @@ ga('send', 'pageview');
 
 <!-- Faucet.BitShares.org  - Referral Tracking -->
 
- <script>
+<!-- <script>
 var BTSW = window.BTSW || {};
 (function () {
 var script = document.createElement('script');
@@ -62,10 +62,10 @@ var entry = document.getElementsByTagName('script')[0];
 entry.parentNode.insertBefore(script, entry);
 }());
 </script>
-
+-->
 
 <!--// Faucet.BitShares.org -->
 
 
 
-
+<script type="text/javascript">var lphURL = (("https:" == document.location.protocol) ? "https://analytics.lipperhey.com/" : "http://analytics.lipperhey.com/");document.write(unescape("%3Cscript src='" + lphURL + "tracker.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">lphTracker.trackPageView(2875947);</script>

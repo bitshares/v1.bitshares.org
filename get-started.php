@@ -72,7 +72,7 @@ include 'inc/header.php';
          <hr>
      <p>After you have downloaded the latest version for your computer and installed the BitShares application, start it up and accept the license. You should then be presented with a screen asking you to set your wallet password.
      </p>
-     <p><img alt="Step 1 - Download Software" src="../assets/images/get-started/1_welcome_page.png"></li>
+     <p><img alt="Step 1 - Download Software" src="../assets/images/get-started/1_welcome_page.jpg"></li>
      </p>
      <p>Your password is used to protect your wallet, which contains your private keys while they are stored on your computer. Be sure to use a reasonably strong password and that your password is not used anywhere else.
      </p>

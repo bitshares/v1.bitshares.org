@@ -52,11 +52,12 @@ include 'inc/header.php';
                <p class="text-center"><a class="large radius button outline expand" href="../how-it-works" target="_self">How it works</a></p>
                </div> 
                <div class="large-4 medium-4 columns">
-               <p class="text-center"><a class="large radius button outline expand" href="../resources/gateways" target="_self">Gateways</a></p>
+               <p class="text-center"><a class="large radius button outline expand" href="../deposit" target="_self">Deposit</a></p>
                </div> 
                <div class="large-4 medium-4 columns">
                <p class="text-center"><a class="large radius button outline expand" href="../get-started" target="_self">Get started</a></p>
                </div> 
+              
            </div>
          </div>
          </div>

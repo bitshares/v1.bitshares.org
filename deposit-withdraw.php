@@ -82,7 +82,7 @@ include 'inc/header.php';
 <h3>Exchanges</h3>
 <hr>
 
-<a  class="download" target="_blank" href="https://shapeshift.io">
+<a  class="download" target="_blank" href="https://bter.com">
 <div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
 <img style="height: 64px;margin: 0 0 24px 0;" src="../assets/images/exchanges/bter-icon.png">
 <h5>Bter</h5>
@@ -93,7 +93,7 @@ include 'inc/header.php';
 </div>
 </a>
 
-<a  class="download" target="_blank" href="http://metaexchange.info/">
+<a  class="download" target="_blank" href="https://yunbi.com/">
 <div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
 
 <img style="height: 48px;margin: 16px 0 24px 0;" src="../assets/images/exchanges/yunbi-icon.svg">
@@ -107,7 +107,7 @@ include 'inc/header.php';
 
   
 
-<a  class="download" target="_blank" href="http://tradebts.com">
+<a  class="download" target="_blank" href="http://www.btc38.com/trade_en.html?mk_type=btc&btc38_trade_coin_name=bts">
 <div class="large-4 medium-4 small-12 columns outline text-center panel-download " >
 <img style="height: 64px;margin: 0 0 24px 0;" src="../assets/images/exchanges/btc38-icon.png">
 <h5>BTC38</h5>

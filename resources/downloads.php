@@ -53,7 +53,7 @@ include '../inc/header.php';
   Be sure to download and install the version of the BitShares software found below that is compatible with your computer’s operating system:</p>
 </div>
 
-<span class="label awesome radius secondary">BitShares 0.5.3</span>
+<span class="label awesome radius secondary">BitShares 0.6.1</span>
 
 
 
@@ -74,7 +74,7 @@ include '../inc/header.php';
 </a>
 
 
-<a  class="download"  href="../binaries/BitShares-v0.5.3.exe" onclick="thanks();">
+<a  class="download"  href="../binaries/BitShares-v0.6.1.exe" onclick="thanks();">
 <div class="large-3 medium-3 small-12 columns outline text-center panel-download">
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/windows.svg">
 <h4>BitShares Client</h4>
@@ -86,7 +86,7 @@ include '../inc/header.php';
 </div>
 </a>
 
-<a class="download"  href="../binaries/BitShares-0.5.3.dmg" onclick="thanks();">
+<a class="download"  href="../binaries/BitShares-0.6.1.dmg" onclick="thanks();">
 <div class="large-3 medium-3 small-12 columns outline text-center panel-download">
 
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/apple.svg">
@@ -94,11 +94,11 @@ include '../inc/header.php';
 <p> <span class="label tiny awesome radius">Mavericks</span></p>
 
 <!--<small>local download</small>-->
-</div>
+</div>  
 </a>
 
 
-<a  class="download"  href="../binaries/bitshares-0.5.3-linux-x86_64.tar.gz" onclick='thanks();'>
+<a  class="download"  href="../binaries/bitsharesGUI-0.6.1-linux-x86_64.tar.gz" onclick='thanks();'>
 <div class="large-3 medium-3 small-12 columns outline text-center panel-download" >
 
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/linux.svg">
