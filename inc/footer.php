@@ -46,7 +46,7 @@
               <li><a href="#" target="_blank">Newsletter</a></li>
                 <li><a href="http://www.aboutbts.com/" target="_blank">BitShares News</a></li>
                 <li><a href="http://bitshares.tv/" target="_blank">BitSharesTV</a></li>
-                <li><a href="../partners" >Partner</a></li>  
+                <li><a href="../partners" >Partners</a></li>  
              </ul>
              </div> 
              
