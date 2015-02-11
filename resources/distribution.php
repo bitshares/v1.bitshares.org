@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "Distribution";
-$section_meta_description = "";
+$section_title = "BitShares - BTS Distribution";
+$section_meta_description = "BitShares shareholders are united with the common purpose of supporting and promoting the BitShares vision. Read about the seed allocation of BitShares in 2014";
 $section_meta_keywords = "";
 include '../inc/header.php';
 

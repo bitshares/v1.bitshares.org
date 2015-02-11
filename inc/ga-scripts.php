@@ -51,18 +51,18 @@ ga('send', 'pageview');
 
 <!-- Faucet.BitShares.org  - Referral Tracking -->
 
-<!-- <script>
+ <script>
 var BTSW = window.BTSW || {};
 (function () {
 var script = document.createElement('script');
 script.type = 'text/javascript';
 script.async = true;
-script.src = 'http://faucet.bitshares.org/widgets/1/w.js?ref='+encodeURIComponent(document.referrer);
+script.src = 'https://faucet.bitshares.org/widgets/1/w.js?ref='+encodeURIComponent(document.referrer);
 var entry = document.getElementsByTagName('script')[0];
 entry.parentNode.insertBefore(script, entry);
 }());
 </script>
--->
+
 
 <!--// Faucet.BitShares.org -->
 

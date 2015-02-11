@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "Partner";
-$section_meta_description = "";
+$section_title = "BitShares - Partners";
+$section_meta_description = "The BitShares community is working with many different companies and organizations. Each partner is supporting our vision of a more decentralized world.";
 $section_meta_keywords = "";
 include 'inc/header.php';
 

@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "Deposit & Withdraw";
-$section_meta_description = "";
+$section_title = "BitShares - Deposit and Withdraw";
+$section_meta_description = "There are many ways to move money in and out of BitShares. Discover all of the BitShares Deposit and BitShares Withdraw options available today.";
 $section_meta_keywords = "";
 include 'inc/header.php';
 

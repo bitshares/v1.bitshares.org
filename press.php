@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "In the press";
-$section_meta_description = "";
+$section_title = "BitShares - Press";
+$section_meta_description = "A list of all the press and publications that have featured BitShares in a story or article.";
 $section_meta_keywords = "";
 include 'inc/header.php';
 

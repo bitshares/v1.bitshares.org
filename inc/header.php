@@ -8,6 +8,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
   
   <!-- Meta -->
     <!-- ****** Google Webmaster Tools Verification ****** -->
+    
     <meta name="google-site-verification" content="x15mu50Hulvw0P-AVXjLsLOvHYyvuhxdAUCprDi8JuA" />
     <script src="//cdn.optimizely.com/js/2331670385.js"></script>
     <meta charset="utf-8" />
@@ -15,19 +16,17 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     <?php if( $section_meta_description != "" ) { ?>
     <meta name="description" content="<?php echo ${section_meta_description} ?>" />
     <?php } else { ?>
-    <meta name="description" content="Bitshares Decentralized Exchange - Trade USD, Gold, Bitcoin, and other derivative assets without counterparty risk" />
+    <meta name="description" content="BitShares is The World's First Decentralized Exchange for crypto-currency. " />
     <?php } ?>
     <?php if( $section_meta_keywords != "" ) { ?>
     <meta name="keyords" content="<?php echo ${section_meta_keywords} ?>" />
     <?php } else { ?>
-    <meta name="keywords" content="Bitshares Decentralized Exchange, BitAssets, Market Peg, BitUSD, BitCNY, BitGOLD, BitBTC" />
     <?php } ?>
     <?php if( $section_title != "" ) { ?>
     <title>BitShares - <?php echo ${section_title} ?></title>
     <?php } else { ?>
     <title>BitShares - Decentralized Exchange</title>
     <?php } ?>
-    <title>BitShares Distributed Exchange</title>
     
     <!-- ****** Meta Facebok Open Graph ****** -->
     <meta property="og:title" content="BitShares – Decentralized Exchange"/>

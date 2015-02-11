@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "Get started!";
-$section_meta_description = "";
+$section_title = "BitShares - Get Started!";
+$section_meta_description = "This tutorial will walk you through the process of getting a registered account on the BitShares blockchain. There are only 4 short steps to financial freedom.";
 $section_meta_keywords = "";
 include 'inc/header.php';
 
