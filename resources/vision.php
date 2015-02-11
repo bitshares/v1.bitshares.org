@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "Vision";
-$section_meta_description = "";
+$section_title = "BitShares - Our Vision";
+$section_meta_description = "Our philosophy and vision is to build decentralized free-market solutions for securing the life, liberty, and property of all. ";
 $section_meta_keywords = "";
 include '../inc/header.php';
 

@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "";
-$section_meta_description = "";
+$section_title = "BitShares - The Decentralized Exchange";
+$section_meta_description = "BitShares is The World's First Decentralized Exchange for crypto-currency. ";
 $section_meta_keywords = "";
 include 'inc/header.php';
 
@@ -37,7 +37,7 @@ include 'inc/header.php';
         <div class="row headline">
           <div class="large-12 medium-12 small-12 columns">
           <center>
-          <h1>BitShares The Decentralized Exchange</h1>
+          <h1>BitShares - The Decentralized Exchange</h1>
           <h4 class="subheader">Trade Dollars, Gold, Bitcoin, and more without counterparty risk.</h4>
           <a class="round button awesome green" href="../get-started"><i class="openacc"></i>OPEN YOUR ACCOUNT</a><br>
        

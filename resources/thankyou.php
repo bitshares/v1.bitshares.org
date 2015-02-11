@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "Thank you for downloading";
-$section_meta_description = "";
+$section_title = "BitShares - Thanks For Downloading";
+$section_meta_description = "Thank you for downloading the BitShares client software. You are now a valued member of the BitShares Community. ";
 $section_meta_keywords = "";
 include '../inc/header.php';
 

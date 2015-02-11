@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "How it works";
-$section_meta_description = "";
+$section_title = "BitShares - How It Works";
+$section_meta_description = "The inner workings of BitShares are revolutionary. Learn how you can spend, invest, or trade with the crypto-currency of tomorrow and what makes it possible.";
 $section_meta_keywords = "";
 include 'inc/header.php';
 

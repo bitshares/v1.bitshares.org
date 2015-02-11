@@ -1,7 +1,7 @@
 <?php
 $page_root_path = './../';
-$section_title = " Gateways";
-$section_meta_description = "";
+$section_title = "BitShares - Gateways And Bridges";
+$section_meta_description = "Any existing crypto-currency exchange can become a BitShares Gateway or BitShares Bridge and profit from trading activity on The Decentralized Exchange.";
 $section_meta_keywords = "";
 include '../inc/header.php';
 

@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "Delegates";
-$section_meta_description = "";
+$section_title = "BitShares - Delegates";
+$section_meta_description = "The BitShares network runs on Delegated Proof of Stake (DPOS), a cutting edge security protocol for a new breed of blockchain-based technologies.";
 $section_meta_keywords = "";
 include 'inc/header.php';
 

@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "Download Software";
-$section_meta_description = "";
+$section_title = "BitShares - Download";
+$section_meta_description = "Download the BitShares client today! We support all major operating systems. BitShares software is public domain and the source code is available via GitHub.";
 $section_meta_keywords = "";
 include '../inc/header.php';
 

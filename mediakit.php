@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "BitShares | Mediakit";
-$section_meta_description = "";
+$section_title = "BitShares - Media Kit";
+$section_meta_description = "Look no further for BitShares promotional materials for use by the media and press. ";
 $section_meta_keywords = "";
 include 'inc/header.php';
 

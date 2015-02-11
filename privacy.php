@@ -1,7 +1,7 @@
 <?php
 
-$section_title = "Privacy Policy";
-$section_meta_description = "";
+$section_title = "BitShares - Privacy Policy";
+$section_meta_description = "Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information";
 $section_meta_keywords = "";
 include 'inc/header.php';
 
