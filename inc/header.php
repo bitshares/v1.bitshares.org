@@ -13,28 +13,26 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     <script src="//cdn.optimizely.com/js/2331670385.js"></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <?php if( $section_meta_description != "" ) { ?>
-    <meta name="description" content="<?php echo ${section_meta_description} ?>" />
-    <?php } else { ?>
-    <meta name="description" content="BitShares is The World's First Decentralized Exchange for crypto-currency. " />
-    <?php } ?>
-    <?php if( $section_meta_keywords != "" ) { ?>
-    <meta name="keyords" content="<?php echo ${section_meta_keywords} ?>" />
-    <?php } else { ?>
-    <?php } ?>
     <?php if( $section_title != "" ) { ?>
-    <title>BitShares - <?php echo ${section_title} ?></title>
+    <title><?php echo ${section_title} ?></title>
+    <meta property="og:title" content="<?php echo ${section_title} ?>"/>
     <?php } else { ?>
-    <title>BitShares - Decentralized Exchange</title>
+    <title>BitShares - The Decentralized Exchange</title>
+    <meta property="og:title" content="BitShares - The Decentralized Exchange"/>
     <?php } ?>
     
-    <!-- ****** Meta Facebok Open Graph ****** -->
-    <meta property="og:title" content="BitShares – Decentralized Exchange"/>
+    <?php if( $section_meta_description != "" ) { ?>
+    <meta name="description" content="<?php echo ${section_meta_description} ?>" />
+    <meta property="og:description" content="<?php echo ${section_meta_description} ?>" />
+    <?php } else { ?>
+    <?php } ?>
+    
+    <!-- ****** Additional Meta Facebook Open Graph ****** -->
     <meta property="og:image" content="../media/social/fb/fb_og_image.png"/>
     <meta property="og:site_name" content="BitShares.org"/>
-    <meta property="og:description" content="Trade Dollars, Gold, Bitcoin, and other derivative assets without counterparty risk."/>
-    	
-     <!--//  Meta -->
+    <meta property="og:description" content="BitShares is The World's First Decentralized Exchange for crypto-currency."/>
+    
+   <!--//  Meta -->
     
     
     
