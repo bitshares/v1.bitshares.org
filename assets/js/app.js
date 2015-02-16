@@ -57,7 +57,7 @@ $.when(updateDEX(), updateCMC())
       USD: '$',
       CNY: '¥',
       GOLD: '$',
-      BTC: '\u0243',
+      BTC: 'Ƀ',
       EUR: '€'
     };
     // Update tickers
