@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* Custom Variables - CASS / BTS */
 @import url("//hello.myfonts.net/count/2d3a77");
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700);
 meta.foundation-version {
   font-family: "/5.5.0/"; }
 
@@ -7092,8 +7093,18 @@ ul {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear; }
 
+@-webkit-keyframes fontfix {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 1; } }
 p {
   font-family: inherit;
   font-weight: 100;
@@ -7220,8 +7231,7 @@ p {
     margin-top: -4px; }
   #front-content p {
     font-size: 14px;
-    font-family: Roboto;
-    font-weight: 300;
+    font-family: ProximaNovaSoft-Regular;
     -webkit-transition: width 0.7s ease;
     -moz-transition: width 0.7s ease;
     transition: width 0.7s ease; }

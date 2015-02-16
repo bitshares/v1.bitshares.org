@@ -19,7 +19,7 @@ include 'inc/header.php';
           </div>    
          <div class="large-4 medium-4 small-12 columns show-for-medium-up text-center ">
           <center>
-          <div id="ticker" class="tiny button round awesome secondary ticker"><center><span id="USD"></span> | <span class="" id="CNY"></span><br><span id="BTC"></span> | <span id="GOLD"></span></center></div>
+<!--          <div id="ticker" class="tiny button round awesome secondary ticker"><center><span id="USD"></span> | <span class="" id="CNY"></span><br><span id="BTC"></span> | <span id="GOLD"></span></center></div>-->
           </center>
           </div>
           <div class="large-4 medium-4 small-6 columns">
