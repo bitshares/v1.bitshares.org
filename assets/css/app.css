@@ -6905,19 +6905,23 @@ div[data-magellan-expedition-clone] + div[data-magellan-expedition="fixed"] {
   height: 34px;
   line-height: 33px;
   padding: 0;
-  padding-right: 30px;
+  padding-right: 38px;
   color: #00587C;
   position: relative; }
 
-.top-bar .toggle-topbar.menu-icon a::after {
-  box-shadow: 0 6px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF, 0 22px 0 1px #FFFFFF;
-  -webkit-box-shadow: 0 6px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF, 0 22px 0 1px #FFFFFF;
-  display: block;
-  height: 2px;
-  right: 0px;
+.top-bar.expanded .toggle-topbar a {
+  color: #00587C; }
+
+.top-bar .toggle-topbar.menu-icon a span:after {
+  content: "";
   position: absolute;
-  top: 1px;
-  width: 20px; }
+  display: block;
+  height: 0px;
+  top: 50%;
+  margin-top: -8px;
+  right: 0.9375rem;
+  box-shadow: 0px 0px 0px 1px #00A9E0, 0px 7px 0px 1px #00A9E0, 0px 14px 0px 1px #00A9E0;
+  width: 14px; }
 
 /* Awesome Styles - CASS */
 .awesome {
