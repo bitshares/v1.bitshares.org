@@ -89,7 +89,7 @@ include '../inc/header.php';
 
   <div class="large-12 medium-12 small-12 columns ">
   <div class="top3"></div>
-  <p>If you'll need help etc please visit our forum for more detailed infos</p>
+  <p>If you need additional help, please visit our <a href="https://www.bitsharestalk.org" target="_blank">forum</a> for more information.</p>
   </div>
 
   

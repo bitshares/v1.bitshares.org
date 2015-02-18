@@ -10,7 +10,7 @@
 <li class="name"><h1><a href="../"><img class="logo" src="../assets/images/bts-icon.svg" /></a></h1></li>
 
 <li class="toggle-topbar menu-icon">
-<a href="#"><span>Menu</span></a></li>
+<a href="#"><span></span></a></li>
 </ul>
 <section class="top-bar-section">
 <!-- Right Nav Section -->
