@@ -7254,6 +7254,9 @@ p {
     border-right: 1px solid #E2E2E2; }
   #footer ul {
     font-family: ProximaNovaSoft-Regular, Roboto; }
+    @media only screen {
+      #footer ul {
+        min-height: 180px; } }
   #footer a {
     font-size: 0.8rem;
     margin: 0;

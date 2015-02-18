@@ -2,14 +2,14 @@
     
   
     <footer id="footer">
-    <div class="row">
+    <div class="row" data-equalizer>
      
      
      
-   <div class="large-12 columns" data-equalizer>
+   <div class="large-12 columns">
      
-         <div class="large-2 medium-4 small-12 columns l-border" data-equalizer-watch>
-         <ul class="no-bullet">
+         <div class="large-2 medium-4 small-6 columns l-border">
+         <ul class="no-bullet"  data-equalizer-watch>
             <h5>Resources</h5>
             <li><a href="../resources/distribution">Distribution</a></li>
             <li><a href="../resources/downloads">Download</a></li>
@@ -26,8 +26,8 @@
          
          
                           
-             <div class="large-2 medium-4 small-6 columns l-border" data-equalizer-watch>
-             <ul class="no-bullet">
+             <div class="large-2 medium-4 small-4 columns l-border">
+             <ul class="no-bullet"  data-equalizer-watch>
              <h5>Documentation</h5>
              
              <li><a href="https://github.com/BitShares/bitshares" target="_blank">Documentation</a></li>
@@ -38,8 +38,8 @@
              
              </div>
              
-             <div class="large-2 medium-4 small-6 columns l-border" data-equalizer-watch>
-             <ul class="no-bullet">
+             <div class="large-2 medium-4 small-6 columns l-border left">
+             <ul class="no-bullet  " data-equalizer-watch>
               <h5>Community</h5>
               <li><a href="../blog/" >Blog</a></li>
               <li><a href="https://bitsharestalk.org/" target="_blank">Forum</a></li>
@@ -53,8 +53,8 @@
              
              
              
-             <div class="large-2 medium-4 small-6 columns l-border" data-equalizer-watch>
-             <ul class="no-bullet">  
+             <div class="large-2 medium-4 small-6 columns l-border">
+             <ul class="no-bullet"  data-equalizer-watch>  
              <h5 >Press & Media</h5>
              <li><a href="../press">In the Press</a></li> 
               <li><a href="../mediakit">Mediakit</a></li>
@@ -66,8 +66,8 @@
              </ul>
              </div> 
               
-             <div class="large-2 medium-4 small-6 columns l-border" data-equalizer-watch>
-                <ul class="no-bullet">
+             <div class="large-2 medium-4 small-6 columns l-border">
+                <ul class="no-bullet"  data-equalizer-watch>
                 <h5>Blockchain</h5>
                 
                 <li><a href="http://www.bitsharesblocks.com" target="_blank">Block Explorer</a></li>
@@ -81,9 +81,9 @@
               
                                                 
                   
-             <div class="large-1 medium-4 small-6 columns l-border right" data-equalizer-watch>
+             <div class="large-1 medium-4 small-6 columns l-border ">
              
-             <ul class="no-bullet ">
+             <ul class="no-bullet " data-equalizer-watch>
              <h5>Social</h5>
              <li><a href="http://www.reddit.com/r/BitShares" target="_blank">Reddit</a></li>
              <li><a href="https://twitter.com/_bitshares" target="_blank">Twitter</a></li>
