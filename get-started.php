@@ -69,7 +69,60 @@ include 'inc/header.php';
 <div class="large-12 medium-12 small-12 columns">
   <h3>Step 1 - Download Software</h3>
      <h4 class="subheader">The first step is to <a href="../resources/downloads" target="_blank">Download BitShares</a> and install the software.</h4>
-         <hr>
+     
+     <hr>
+     
+     
+     <!-- Download Buttons -->
+     
+     
+     
+            
+   
+     <a  class="download"  href="../binaries/BitShares-v0.6.1.exe" onclick="thanks();">
+     <div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
+     <img style="height: 24px; margin: 0 0 12px 0;" src="../assets/images/icons/windows.svg" />
+     <h5>BitShares Client</h5>
+     <p><span class="label tiny awesome radius">x32-bit/64-bit</span></p>
+     
+     
+     <!--<small>local download</small>-->
+     
+     </div>
+     </a>
+   
+     
+     <a class="download"  href="../binaries/BitShares-0.6.1.dmg" onclick="thanks();">
+     <div class="large-4 medium-4 small-12 columns outline text-center panel-download">
+     
+     <img style="height: 24px; margin: 0 0 12px 0;" src="../assets/images/icons/apple.svg" />
+     <h5>BitShares Client</h5>
+     <p> <span class="label tiny awesome radius">Mavericks</span></p>
+     
+     <!--<small>local download</small>-->
+     </div>  
+     </a>
+     
+     
+     <a  class="download"  href="../binaries/bitsharesGUI-0.6.1-linux-x86_64.tar.gz" onclick='thanks();'>
+     <div class="large-4 medium-4 small-12 columns outline text-center panel-download" style="margin-bottom: 24px;">
+     
+     <img style="height: 24px ;margin: 0 0 12px 0;" src="../assets/images/icons/linux.svg" />
+     <h5>BitShares Client</h5>
+      <p><span class="label tiny awesome radius">Linux 64-bit</span></p>
+     
+     <!--<small class="">local download</small>-->
+     
+     </div>
+     </a>
+  
+     
+     
+     <!--// Download Buttons -->
+ 
+     
+         
+         
      <p>After you have downloaded the latest version for your computer and installed the BitShares application, start it up and accept the license. You should then be presented with a screen asking you to set your wallet password.
      </p>
      <p><img alt="Step 1 - Download Software" src="../assets/images/get-started/1_welcome_page.jpg"></li>
@@ -208,3 +261,4 @@ include 'inc/header.php';
 <?php
 include("inc/footer.php");
 ?>
+
