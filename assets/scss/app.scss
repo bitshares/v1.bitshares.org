@@ -780,11 +780,18 @@ p
             border-right: 1px solid #E2E2E2;
           }
           
-        ul {font-family:  $proxima-soft-reg, Roboto;}
+        ul {font-family:  $proxima-soft-reg, Roboto;
+          @media only screen {
+            min-height: 180px;
+          }
+        
+        }
+        
+        
         a {
         font-size: 0.8rem;margin:0;padding:0;
         }
-      
+     
               }
 
 
