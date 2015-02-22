@@ -82,11 +82,11 @@ include 'inc/header.php';
 <h3>Exchanges</h3>
 <hr>
 
-<a  class="download" target="_blank" href="https://bter.com">
+<a  class="download" target="_blank" href="https://poloniex.com/exchange#btc_bts">
 <div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
-<img style="height: 64px;margin: 0 0 24px 0;" src="../assets/images/exchanges/bter-icon.png">
-<h5>Bter</h5>
-<p><span class="label tiny awesome radius gray">USD, BTC, BitUSD, BTS</span></p>
+<img style="height: 32px;margin: 24px 0 32px 0;" src="../assets/images/exchanges/poloniex.png">
+<h5>Poloniex</h5>
+<p><span class="label tiny awesome radius gray">BTS</span></p>
 
 
 
