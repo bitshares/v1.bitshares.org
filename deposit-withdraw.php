@@ -74,6 +74,16 @@ include 'inc/header.php';
 </div>
 </a>
 
+<a  class="download" target="_blank" href="https://blocktrades.us/">
+<div class="large-12 medium-12 small-12 columns outline text-center panel-download " >
+<img style="height: 64px;margin: 16px 0 24px 0;" src="../assets/images/exchanges/blocktrade2.svg">
+<h5>BlockTrade</h5>
+<p><span class="label tiny awesome radius gray">BTC, LTC, BitBTC, BitUSD, BitCNY, TRADE.BTC, TRADE.LTC</span></p>
+
+
+</div>
+</a>
+
 </div>
 <div class="top3"></div>
 <div class="large-12 columns ">
@@ -118,10 +128,12 @@ include 'inc/header.php';
 </a>
 
 
+
 </div>
 
 
 <div class="top3"></div>
+<div class="row">
 <div class="large-12 columns ">
 <div class="top3"></div>
 
@@ -129,8 +141,17 @@ include 'inc/header.php';
 <hr>
 
 
-<p><span class="label tiny awesome radius gray">coming soon</span></p>
+<a  class="download" target="_blank" href="https://blocktrades.us/">
+<div class="large-12 medium-12 small-12 columns outline text-center panel-download " >
+<img style="height: 64px;margin: 0 0 24px 0;" src="../assets/images/exchanges/blocktrade2.svg">
+<h5>BlockTrade</h5>
+<p><span class="label tiny awesome radius gray">BTC, LTC, BitBTC, BitUSD, BitCNY, TRADE.BTC, TRADE.LTC</span></p>
 
+
+</div>
+</a>
+
+</div>
 </div>
 
 

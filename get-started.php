@@ -68,7 +68,7 @@ include 'inc/header.php';
 <div class="row ">
 <div class="large-12 medium-12 small-12 columns">
   <h3>Step 1 - Download Software</h3>
-     <h4 class="subheader">The first step is to <a href="../resources/downloads" target="_blank">Download BitShares</a> and install the software.</h4>
+     <h4 class="subheader">The first step is to Download BitShares client and install the software.</h4>
      
      <hr>
      
