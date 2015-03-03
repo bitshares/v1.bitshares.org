@@ -11,6 +11,7 @@
          <div class="large-2 medium-4 small-6 columns l-border">
          <ul class="no-bullet"  data-equalizer-watch>
             <h5>Resources</h5>
+           <li><a href="../deposit-withdraw">Deposit / Withdraw</a></li>
             <li><a href="../resources/distribution">Distribution</a></li>
             <li><a href="../resources/downloads">Download</a></li>
             <li><a href="../resources/gateways">Gateways</a></li>
