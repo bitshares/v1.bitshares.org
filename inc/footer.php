@@ -44,7 +44,7 @@
               <h5>Community</h5>
               <li><a href="../blog/" >Blog</a></li>
               <li><a href="https://bitsharestalk.org/" target="_blank">Forum</a></li>
-              <li><a href="#" target="_blank">Newsletter</a></li>
+<!--              <li><a href="#" target="_blank">Newsletter</a></li>-->
                 <li><a href="http://www.aboutbts.com/" target="_blank">BitShares News</a></li>
                 <li><a href="http://bitshares.tv/" target="_blank">BitSharesTV</a></li>
                 <li><a href="../partners" >Partners</a></li>  
