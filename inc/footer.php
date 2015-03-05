@@ -97,13 +97,6 @@
        </footer>
   
       
-       
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../bower_components/foundation/js/foundation.min.js"></script>
- 
-    
-    <script src="../assets/js/app.js"></script>
-    
     <script type="text/javascript">
     /* <![CDATA[ */
     var google_conversion_id = 957730560;
@@ -192,8 +185,7 @@
     window.location.href = hrefRedirect;
     }
     }
-    </script>
-    
+    </script>    
     
     <!--//  Google Analytics - Custom JQuery Tracking Code To Track Downloads and External Links In Google Analytics As Events -->
   </body>

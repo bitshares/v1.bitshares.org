@@ -6,12 +6,16 @@ $section_meta_keywords = "";
 include 'inc/header.php';
 
 ?>
-<body> 
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="assets/js/highstock.js"></script>
+  <script src="../bower_components/foundation/js/foundation.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script src="assets/js/app.js"></script>
 
-  
-  
+<body ng-app="app" ng-controller="tickerCtrl"> 
+    
    <!-- Start Content Section -->
-  <section class="frontpage-head">
+  <section class="frontpage-head" >
       <header>
         <div class="row">
           <div class="large-4 medium-4 small-6 columns ">
@@ -19,15 +23,18 @@ include 'inc/header.php';
           </div>    
          <div class="large-4 medium-4 small-12 columns show-for-medium-up text-center ">
           <center>
-<!--          <div id="ticker" class="tiny button round awesome secondary ticker"><center><span id="USD"></span> | <span class="" id="CNY"></span><br><span id="BTC"></span> | <span id="GOLD"></span></center></div>-->
-          </center>
+          <div id="ticker" ng-show="price.USD" class="tiny button round awesome secondary ticker">
+            <center>
+            <span id="USD">{{ price.USD }}</span> | <span class="" id="CNY">{{ price.CNY }}</span><br>
+            <span id="BTC">{{ price.BTC }}</span> | <span id="GOLD">{{ price.GOLD }}</span></center></div>
+            </center>
           </div>
           <div class="large-4 medium-4 small-6 columns">
             <ul class="button-group round right ">
-             <li><a href="/how-it-works" class="tiny awesome button split secondary">EXPLORE<span  data-dropdown="drop"></span></a>
+             <li><a href="/how-it-works.php" class="tiny awesome button split secondary">EXPLORE<span  data-dropdown="drop"></span></a>
                 <ul id="drop" class="f-dropdown" data-dropdown-content>
-                 <li><a href="/how-it-works">How It Works</a></li>
-                 <li><a href="/get-started">Get started!</a></li> 
+                 <li><a href="/how-it-works.php">How It Works</a></li>
+                 <li><a href="/get-started.php">Get started!</a></li> 
                   <li><a href="https://bitsharestalk.org/index.php?board=45.0" target="_blank">Helpdesk / Forum</a></li> 
                 </ul>
               </li>
@@ -39,23 +46,30 @@ include 'inc/header.php';
           <center>
           <h1>BitShares - The Decentralized Exchange</h1>
           <h4 class="subheader">Trade Dollars, Gold, Bitcoin, and more without counterparty risk.</h4>
-          <a class="round button awesome green" href="../get-started"><i class="openacc"></i>OPEN YOUR ACCOUNT</a><br>
+          <a class="round button awesome green" href="../get-started.php"><i class="openacc"></i>OPEN YOUR ACCOUNT</a><br>
        
           </center>
           </div> 
+
         </div>
+          <ul class="markets-list market-sparks">
+            <li ng-repeat="m in featured_markets track by $index" class="large-4 col-small-6" style="margin-right:0;">
+              <market-thumbnail name="m"></market-thumbnail>
+            </li>
+          </ul> 
+          </div>
     <div class="top-featured">
       <div class="row">
        <div class="large-12 columns">
            <div class="row">
                <div class="large-4 medium-4 columns">
-               <p class="text-center"><a class="large radius button outline expand" href="../how-it-works" target="_self">How it works</a></p>
+               <p class="text-center"><a class="large radius button outline expand" href="../how-it-works.php" target="_self">How it works</a></p>
                </div> 
                <div class="large-4 medium-4 columns">
-               <p class="text-center"><a class="large radius button outline expand" href="../deposit" target="_self">Deposit</a></p>
+               <p class="text-center"><a class="large radius button outline expand" href="../deposit.php" target="_self">Deposit</a></p>
                </div> 
                <div class="large-4 medium-4 columns">
-               <p class="text-center"><a class="large radius button outline expand" href="../get-started" target="_self">Get started</a></p>
+               <p class="text-center"><a class="large radius button outline expand" href="../get-started.php" target="_self">Get started</a></p>
                </div> 
               
            </div>
