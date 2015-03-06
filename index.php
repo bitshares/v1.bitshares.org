@@ -6,7 +6,11 @@ $section_meta_keywords = "";
 include 'inc/header.php';
 
 ?>
-  <script src="dist/assets/js/main.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="assets/js/highstock.js"></script>
+  <script src="../bower_components/foundation/js/foundation.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script src="assets/js/app.js"></script>
 
 <body ng-app="app" ng-controller="tickerCtrl"> 
     
