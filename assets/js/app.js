@@ -116,7 +116,11 @@ angular.module('app', [])
   return {
     updateDEX: function() {
       var deferred = $q.defer();
-      $http.jsonp('https://api.bitsharesblocks.com/v2/cmc?callback=JSON_CALLBACK')
+      $http({
+          method: 'JSONP',
+          url: 'https://api.bitsharesblocks.com/v2/cmc?callback=JSON_CALLBACK',
+          cache: true
+        })
         .success(function(result) {
           deferred.resolve(result);
         })
@@ -128,7 +132,11 @@ angular.module('app', [])
     },
     updateCMC: function() {
       var deferred = $q.defer();
-      $http.get('https://coinmarketcap-nexuist.rhcloud.com/api/bts')
+      $http({
+          method: 'GET',
+          url: 'https://coinmarketcap-nexuist.rhcloud.com/api/bts',
+          cache: true
+        })
         .success(function(result) {
           deferred.resolve(result);
         })
@@ -145,7 +153,11 @@ angular.module('app', [])
       url = url + JSON.stringify({
         days: days
       });
-      $http.jsonp(url + '?callback=JSON_CALLBACK')
+      $http({
+          method: 'JSONP',
+          url: url + '?callback=JSON_CALLBACK',
+          cache: true
+        })
         .success(function(result) {
           deferred.resolve(result);
         })
@@ -180,7 +192,6 @@ angular.module('app', [])
       name: "="
     },
     controller: chartsCtrl
-
   };
 })
 
@@ -228,7 +239,7 @@ angular.module('app', [])
   });
 }]);
 
-chartsCtrl.$inject = ['$scope','$element','$attrs','$q','Api'];
+chartsCtrl.$inject = ['$scope', '$element', '$attrs', '$q', 'Api'];
 
 function chartsCtrl($scope, $element, $attrs, $q, Api) {
   var chart_click, market, market_symbols;
