@@ -2,3 +2,4 @@
 *.codekit_cache
 *.bowerrc
 *.sass_cache
+node_modules

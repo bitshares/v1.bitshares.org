@@ -1,0 +1,23 @@
+{
+  "name": "bitshares.org",
+  "version": "1.0.0",
+  "description": "Official Bitshares website",
+  "main": "index.php",
+  "dependencies": {
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cassiopaia/labs.bitshares.org"
+  },
+  "author": ["Cass", "Sigve Kvalsvik <bitsharesblocks@gmail.com>"],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cassiopaia/labs.bitshares.org/issues"
+  },
+  "homepage": "https://github.com/cassiopaia/labs.bitshares.org"
+}
