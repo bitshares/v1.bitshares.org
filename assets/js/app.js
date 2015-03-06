@@ -42,7 +42,7 @@ Highcharts.SparkLine = function(options, callback) {
       type: "area",
       margin: [0, 0, 0, 0],
       padding: 0,
-      height: 60,
+      height: 40,
       style: {
         overflow: "visible"
       },

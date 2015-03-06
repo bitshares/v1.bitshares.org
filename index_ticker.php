@@ -6,11 +6,11 @@ $section_meta_keywords = "";
 include 'inc/header.php';
 
 ?>
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="assets/js/highstock.js"></script>
-  <script src="../bower_components/foundation/js/foundation.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-  <script src="assets/js/app.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="assets/js/highstock.js"></script>
+<script src="../bower_components/foundation/js/foundation.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script src="assets/js/app.js"></script>
 
 <body ng-app="app" ng-controller="tickerCtrl"> 
     
@@ -52,28 +52,34 @@ include 'inc/header.php';
           </div> 
 
         </div>
-          <ul class="markets-list market-sparks">
-            <li ng-repeat="m in featured_markets track by $index" class="large-4 col-small-6" style="margin-right:0;">
-              <market-thumbnail name="m"></market-thumbnail>
-            </li>
-          </ul> 
+      
           </div>
     <div class="top-featured">
-      <div class="row">
+    
+        <div class="row hide-for-medium-up">
+            <div class="large-4 medium-4 columns">
+            <p class="text-center"><a class="large radius button outline expand" href="../how-it-works" target="_self">How it works</a></p>
+            </div> 
+            <div class="large-4 medium-4 columns">
+            <p class="text-center"><a class="large radius button outline expand" href="../deposit" target="_self">Deposit</a></p>
+            </div> 
+            <div class="large-4 medium-4 columns">
+            <p class="text-center"><a class="large radius button outline expand" href="../get-started" target="_self">Get started</a></p>
+            </div> 
+           
+        </div>
+    
+    
+    
+      <div class="row hide-for-small-only">
        <div class="large-12 columns">
-           <div class="row">
-               <div class="large-4 medium-4 columns">
-               <p class="text-center"><a class="large radius button outline expand" href="../how-it-works" target="_self">How it works</a></p>
-               </div> 
-               <div class="large-4 medium-4 columns">
-               <p class="text-center"><a class="large radius button outline expand" href="../deposit" target="_self">Deposit</a></p>
-               </div> 
-               <div class="large-4 medium-4 columns">
-               <p class="text-center"><a class="large radius button outline expand" href="../get-started" target="_self">Get started</a></p>
-               </div> 
-              
-           </div>
+ 
+         <div ng-repeat="m in featured_markets track by $index" class="large-2 medium-4 small-12 columns" style="margin-right:0;">
+       
+           <market-thumbnail name="m"></market-thumbnail>
          </div>
+       
+                </div>
          </div>
     </div>
       </header>
@@ -83,50 +89,7 @@ include 'inc/header.php';
 
  
 
-    
-    <section id="front-chart">
 
-
-<div class="row ">
-    <a href="http://docs.bitshares.org" target="_blank">
- <div class="large-12 columns bitasset-wp">
-        <div class="large-5 medium-5 small-12 columns">
-        <h4 class="text-right small-only-text-center" style="margin-top: 2px;">BitAssets Whitepaper<br><span class=" radius awesome label">Technical information about Market Pegged Assets</span></h4>
-       </div>
-       <div class="text-left small-only-text-center large-7 medium-7 small-12 columns">
-       <img style="max-width: 480px;width: 94%;height: auto;" src="../assets/images/home/btn-bitassets.svg">
-       </div>
-     
- </div> 
-   </a>         
-</div>
-
-
-<!--<div class="row ">
-     <center>
-         
-         
-        
-         <div class="large-12 columns">
-         <ul class="small-block-grid-5">
-         <li><span class="label awesome" id="USD"></span></li>
-         <li><span class="label awesome" id="BTC"></span></li>  
-         <li><span class="label awesome" id="CNY"></span></li>
-         <li><span class="label awesome" id="GOLD"></span></li>
-         <li><span class="label awesome" id="EUR"></span></li>
-         </ul>
-        
-         
-         <div class="large-12 columns">
-           <h4 class="label awesome">USD Price history</h4>
-         <div id="container" style="height: auto; width: 96%;margin: 0px 0 24px 0;"></div>
-         </div>
-         </center>   
-         </div>
-        
-   -->
-
-</section>
 
 
 <section id="front-content">
@@ -175,17 +138,22 @@ include 'inc/header.php';
             </div>
           </div>
        </div>
-           <!--<div class="row ">
-             <a href="http://docs.bitshares.org" target="_blank">
-          <div class="large-12 columns bitasset-wp">
-                 <div class="large-5 medium-5 small-12 columns">
-                 <h4 class="text-right small-only-text-center" style="margin-top: 2px;">BitAssets Whitepaper<br><span class="primary radius awesome label">Technical information about Market Pegged Assets</span></h4>
-                </div>
-                <div class="large-7 medium-7 small-12 columns">
-                <img style="max-width: 480px;width: 94%;height: auto;" src="../assets/images/home/btn-bitassets.svg">
-                </div></a>
-          </div>          
-         </a></div>-->
+       
+       
+      <div class="row ">
+          <a href="http://docs.bitshares.org" target="_blank">
+       <div class="large-12 columns bitasset-wp">
+              <div class="large-5 medium-5 small-12 columns">
+              <h4 class="text-right small-only-text-center" style="margin-top: 2px;">BitAssets Whitepaper<br><span class=" radius awesome label">Technical information about Market Pegged Assets</span></h4>
+             </div>
+             <div class="text-left small-only-text-center large-7 medium-7 small-12 columns">
+             <img style="max-width: 480px;width: 94%;height: auto;" src="../assets/images/home/btn-bitassets.svg">
+             </div>
+           
+       </div> 
+         </a>         
+      </div>
+      
          
                   <div class="row" style="margin-top: 32px;">
                <div class="large-4 medium-4 small-12 columns">
@@ -233,8 +201,7 @@ include 'inc/header.php';
           
    </div>         
 </section>
-  
-
+    
 <?php
 include("inc/footer.php");
 ?>
