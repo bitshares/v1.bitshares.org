@@ -191,7 +191,7 @@ angular.module('app', [])
     scope: {
       name: "="
     },
-      controller: chartsCtrl
+    controller: chartsCtrl
   };
 })
 
@@ -238,141 +238,143 @@ angular.module('app', [])
     $interval.cancel(tickerInterval);
   });
 
-  chartsCtrl.$inject = ['$scope', '$element', '$attrs', '$q', 'Api'];
 
-  function chartsCtrl($scope, $element, $attrs, $q, Api) {
-    var chart_click, market, market_symbols;
-
-    chart_click = function() {
-      return console.log('clicked');
-    };
-
-    market = {};
-    market.quantity_symbol = $scope.name;
-    market.base_symbol = 'BTS';
-    market.asset_quantity_symbol = market.quantity_symbol.replace("Bit", "");
-    market.asset_base_symbol = market.base_symbol.replace("Bit", "");
-    market.price_symbol = "" + market.base_symbol + "/" + market.quantity_symbol;
-    market.inverse_price_symbol = "" + market.quantity_symbol + "/" + market.base_symbol;
-
-    $scope.title = 'Bit' + $scope.name + ':BTS';
-
-    return Api.priceHistory(market.quantity_symbol).then(function(result) {
-      var price_history_call_promise, start_time;
-
-      if (result) {
-
-        var area_color, c, h, highest_bid, l, lowest_ask, o, oc_avg, series, t, time, yAxis, _i, _len;
-        if (!result || result.length === 0) {
-          return;
-        }
-        market.ohlc_data = [];
-        market.volume_data = [];
-        market.volume = 0.0;
-        market.last_price = 0.0;
-        market.max_volume = 0;
-        market.min_price = 99999999;
-        market.high_price = 0;
-        market.open = result.price[0][1];
-        market.close = market.open;
-        for (_i = 0, _len = result.price.length; _i < _len; _i++) {
-          t = result.price[_i];
-          time = t[0];
-          o = t[1];
-          market.last_price = c = t[4];
-          lowest_ask = t[3];
-          highest_bid = t[2];
-          h = lowest_ask > highest_bid ? lowest_ask : highest_bid;
-          l = lowest_ask < highest_bid ? lowest_ask : highest_bid;
-          if (o > h) {
-            h = o;
-          }
-          if (c > h) {
-            h = c;
-          }
-          if (o < l) {
-            l = o;
-          }
-          if (c < l) {
-            l = c;
-          }
-          oc_avg = (o + c) / 2.0;
-          if (h / oc_avg > 1.25) {
-            h = 1.10 * Math.max(o, c);
-          }
-          if (oc_avg / l > 1.25) {
-            l = 0.90 * Math.min(o, c);
-          }
-
-          t.volume = result.volume[_i];
-          market.ohlc_data.push([time, oc_avg]);
-          market.volume_data.push([t.volume[0], t.volume[1]]);
-          market.volume += t.volume[1];
-          market.max_volume = Math.max(t.volume[1], market.max_volume);
-          market.min_price = Math.min(oc_avg, market.min_price);
-          market.high_price = Math.max(oc_avg, market.high_price);
-          market.close = c;
-        }
-        market.max_volume = 3 * Math.floor(market.max_volume);
-        market.change = (market.close - market.open) / market.open * 100;
-
-        $scope.market = market;
-        area_color = market.change > 0 ? '#28a92e' : '#c90808';
-        series = [{
-          data: market.volume_data,
-          pointStart: 1,
-          name: 'Volume',
-          type: 'column',
-          yAxis: 1,
-          dataGrouping: {
-            enabled: true
-          },
-          tooltip: {
-            valueDecimals: 0,
-            valueSuffix: ' BTS'
-          }
-        }, {
-          data: market.ohlc_data,
-          pointStart: 1,
-          name: 'Price',
-          dataGrouping: {
-            enabled: true
-          },
-          tooltip: {
-            valueDecimals: 2,
-            valueSuffix: ' BTS/' + market.asset_quantity_symbol
-          },
-          min: market.min_price,
-          color: area_color
-        }];
-        yAxis = [{
-          opposite: true,
-          labels: {
-            enabled: false
-          },
-          title: {
-            text: null
-          },
-          gridLineWidth: 0,
-          min: 0.98 * market.min_price
-        }, {
-          endOnTick: false,
-          startOnTick: false,
-          labels: {
-            enabled: false
-          },
-          title: {
-            text: null
-          },
-          gridLineWidth: 0
-        }];
-        return $(".sparkchart", $element).highcharts('SparkLine', {
-          series: series,
-          yAxis: yAxis,
-          chart_click: chart_click
-        });
-      }
-    });
-  }
 
 }]);
+
+chartsCtrl.$inject = ['$scope', '$element', '$attrs', '$q', 'Api'];
+
+function chartsCtrl($scope, $element, $attrs, $q, Api) {
+  var chart_click, market, market_symbols;
+
+  chart_click = function() {
+    return;
+  };
+
+  market = {};
+  market.quantity_symbol = $scope.name;
+  market.base_symbol = 'BTS';
+  market.asset_quantity_symbol = market.quantity_symbol.replace("Bit", "");
+  market.asset_base_symbol = market.base_symbol.replace("Bit", "");
+  market.price_symbol = "" + market.base_symbol + "/" + market.quantity_symbol;
+  market.inverse_price_symbol = "" + market.quantity_symbol + "/" + market.base_symbol;
+
+  $scope.title = 'Bit' + $scope.name + ':BTS';
+
+  return Api.priceHistory(market.quantity_symbol).then(function(result) {
+    var price_history_call_promise, start_time;
+
+    if (result) {
+
+      var area_color, c, h, highest_bid, l, lowest_ask, o, oc_avg, series, t, time, yAxis, _i, _len;
+      if (!result || result.length === 0) {
+        return;
+      }
+      market.ohlc_data = [];
+      market.volume_data = [];
+      market.volume = 0.0;
+      market.last_price = 0.0;
+      market.max_volume = 0;
+      market.min_price = 99999999;
+      market.high_price = 0;
+      market.open = result.price[0][1];
+      market.close = market.open;
+      for (_i = 0, _len = result.price.length; _i < _len; _i++) {
+        t = result.price[_i];
+        time = t[0];
+        o = t[1];
+        market.last_price = c = t[4];
+        lowest_ask = t[3];
+        highest_bid = t[2];
+        h = lowest_ask > highest_bid ? lowest_ask : highest_bid;
+        l = lowest_ask < highest_bid ? lowest_ask : highest_bid;
+        if (o > h) {
+          h = o;
+        }
+        if (c > h) {
+          h = c;
+        }
+        if (o < l) {
+          l = o;
+        }
+        if (c < l) {
+          l = c;
+        }
+        oc_avg = (o + c) / 2.0;
+        if (h / oc_avg > 1.25) {
+          h = 1.10 * Math.max(o, c);
+        }
+        if (oc_avg / l > 1.25) {
+          l = 0.90 * Math.min(o, c);
+        }
+
+        t.volume = result.volume[_i];
+        market.ohlc_data.push([time, oc_avg]);
+        market.volume_data.push([t.volume[0], t.volume[1]]);
+        market.volume += t.volume[1];
+        market.max_volume = Math.max(t.volume[1], market.max_volume);
+        market.min_price = Math.min(oc_avg, market.min_price);
+        market.high_price = Math.max(oc_avg, market.high_price);
+        market.close = c;
+      }
+      market.max_volume = 3 * Math.floor(market.max_volume);
+      market.change = (market.close - market.open) / market.open * 100;
+
+      $scope.market = market;
+      area_color = market.change > 0 ? '#28a92e' : '#c90808';
+      series = [{
+        data: market.volume_data,
+        pointStart: 1,
+        name: 'Volume',
+        type: 'column',
+        yAxis: 1,
+        dataGrouping: {
+          enabled: true
+        },
+        tooltip: {
+          valueDecimals: 0,
+          valueSuffix: ' BTS'
+        }
+      }, {
+        data: market.ohlc_data,
+        pointStart: 1,
+        name: 'Price',
+        dataGrouping: {
+          enabled: true
+        },
+        tooltip: {
+          valueDecimals: 2,
+          valueSuffix: ' BTS/' + market.asset_quantity_symbol
+        },
+        min: market.min_price,
+        color: area_color
+      }];
+      yAxis = [{
+        opposite: true,
+        labels: {
+          enabled: false
+        },
+        title: {
+          text: null
+        },
+        gridLineWidth: 0,
+        min: 0.98 * market.min_price
+      }, {
+        endOnTick: false,
+        startOnTick: false,
+        labels: {
+          enabled: false
+        },
+        title: {
+          text: null
+        },
+        gridLineWidth: 0
+      }];
+      return $(".sparkchart", $element).highcharts('SparkLine', {
+        series: series,
+        yAxis: yAxis,
+        chart_click: chart_click
+      });
+    }
+  });
+}

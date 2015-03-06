@@ -66,7 +66,6 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     <link rel="stylesheet" href="../assets/css/lab.css" />
     <link rel="stylesheet" href="../assets/css/foundation-icons.css" />
     <link rel="stylesheet" href="../assets/css/animate.css" />
-    <script src="../bower_components/modernizr/modernizr.js"></script>
 
 <!--
 /**
