@@ -53,7 +53,7 @@ include 'inc/header.php';
 <a  class="download" target="_blank" href="http://metaexchange.info/">
 <div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
 
-<img style="height: 48px;margin: 16px 0 24px 0;" src="../assets/images/icons/link.svg">
+<img style="height: 48px;margin: 16px 0 24px 0;" src="../assets/images/exchanges/mx-logo.svg">
 <h5>Metaexchange</h5>
 <p><span class="label tiny awesome radius gray">BTC <i class=" size-12 fi-arrow-left"></i><i class=" size-12 fi-arrow-right"></i> BitBTC</span></p>
 
@@ -76,7 +76,7 @@ include 'inc/header.php';
 
 <a  class="download" target="_blank" href="https://blocktrades.us/">
 <div class="large-12 medium-12 small-12 columns outline text-center panel-download " >
-<img style="height: 64px;margin: 16px 0 24px 0;" src="../assets/images/exchanges/blocktrade2.svg">
+<img style="height: 48px;margin: 16px 0 24px 0;" src="../assets/images/exchanges/blocktrade2.svg">
 <h5>BlockTrade</h5>
 <p><span class="label tiny awesome radius gray">BTC, LTC, BitBTC, BitUSD, BitCNY, TRADE.BTC, TRADE.LTC</span></p>
 
@@ -92,6 +92,18 @@ include 'inc/header.php';
 <h3>Exchanges</h3>
 <hr>
 
+
+<a  class="download" target="_blank" href="https://yunbi.com/">
+<div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
+
+<img style="height: 48px;margin: 16px 0 24px 0;" src="../assets/images/exchanges/yunbi-icon.svg">
+<h5>Yunbi</h5>
+<p><span class="label tiny awesome radius gray">CNY, BTS, BTC, LTC</span></p>
+
+</div>
+</a>
+
+
 <a  class="download" target="_blank" href="https://poloniex.com/exchange#btc_bts">
 <div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
 <img style="height: 32px;margin: 24px 0 32px 0;" src="../assets/images/exchanges/poloniex.png">
@@ -103,15 +115,6 @@ include 'inc/header.php';
 </div>
 </a>
 
-<a  class="download" target="_blank" href="https://yunbi.com/">
-<div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
-
-<img style="height: 48px;margin: 16px 0 24px 0;" src="../assets/images/exchanges/yunbi-icon.svg">
-<h5>Yunbi</h5>
-<p><span class="label tiny awesome radius gray">CNY, BTS, BTC, LTC</span></p>
-
-</div>
-</a>
 
 
 
