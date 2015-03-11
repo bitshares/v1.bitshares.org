@@ -32,7 +32,7 @@
              <h5>Documentation</h5>
              
              <li><a href="https://github.com/BitShares/bitshares" target="_blank">Documentation</a></li>
-             <li><a href="javascript: void(0)">API - <span class="label awesome radius">TBA</span></a></li>
+             <li><a href="http://wiki.bitshares.org/index.php/BitShares/API"  target="_blank">API</a></li>
              <li><a href="http://docs.bitshares.org/" target="_blank">Whitepapers</a></li>
              <li><a href="http://wiki.bitshares.org/" target="_blank">Wiki</a></li>
              </ul>
