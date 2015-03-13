@@ -21,18 +21,13 @@
          </ul>
          </div> 
          
-                 
-         
-      
-         
-         
                           
              <div class="large-2 medium-4 small-4 columns l-border">
              <ul class="no-bullet"  data-equalizer-watch>
              <h5>Documentation</h5>
              
              <li><a href="https://github.com/BitShares/bitshares" target="_blank">Documentation</a></li>
-             <li><a href="javascript: void(0)">API - <span class="label awesome radius">TBA</span></a></li>
+             <li><a href="http://wiki.bitshares.org/index.php/BitShares/API"  target="_blank">API</a></li>
              <li><a href="http://docs.bitshares.org/" target="_blank">Whitepapers</a></li>
              <li><a href="http://wiki.bitshares.org/" target="_blank">Wiki</a></li>
              </ul>
@@ -44,7 +39,7 @@
               <h5>Community</h5>
               <li><a href="../blog/" >Blog</a></li>
               <li><a href="https://bitsharestalk.org/" target="_blank">Forum</a></li>
-<!--              <li><a href="#" target="_blank">Newsletter</a></li>-->
+               <li><a href="../newsletter/">Newsletter</a></li>
                 <li><a href="http://www.aboutbts.com/" target="_blank">BitShares News</a></li>
                 <li><a href="http://bitshares.tv/" target="_blank">BitSharesTV</a></li>
                 <li><a href="../partners" >Partners</a></li>  

@@ -52,6 +52,7 @@ include 'inc/header.php';
 
 <a  class="download" target="_blank" href="http://metaexchange.info/">
 <div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
+
 <img style="height: 48px;margin: 16px 0 24px 0;" src="../assets/images/exchanges/mx-logo.svg">
 <h5>Metaexchange</h5>
 <p><span class="label tiny awesome radius gray">BTC <i class=" size-12 fi-arrow-left"></i><i class=" size-12 fi-arrow-right"></i> BitBTC</span></p>

@@ -1,14 +1,14 @@
 <?php
 
 $section_title = "BitShares - Newsletter Subscription";
-$section_meta_description = "";
+$section_meta_description = "Signup for the Official BitShares Newsletter to stay up to date on events, announcements, and news from the BitShares Community.";
 $section_meta_keywords = "";
-include 'inc/header.php';
+include '../inc/header.php';
 
 ?>
 <body>
 <div class="wrapper">
-<?php include("inc/nav.php");?>
+<?php include("../inc/nav.php");?>
 
 
   <!-- Start Content Section -->
@@ -151,5 +151,5 @@ var google_remarketing_only = false;
 </noscript>"
 <!--// End Content Section  -->  
 <?php
-include("inc/footer.php");
+include("../inc/footer.php");
 ?>

@@ -54,8 +54,8 @@ include 'inc/header.php';
             <li><a href="http://coinality.com/" target="_blank"><img src="../assets/images/partner/p_coinality.png" /></a></li>
             <li><a href="http://bitcoindc.com/" target="_blank"><img src="../assets/images/partner/p_btc_solutions.png" /></a></li>
             <li><a href="#" target="_blank"><img src="../assets/images/partner/p_logo.png" /></a></li>
-            <li><a href="http://bter.com/" target="_blank"><img src="../assets/images/partner/p_bter.png" /></a></li>
-            
+            <li><a href="http://www.yunbi.com" target="_blank"><img src="../assets/images/partner/p_yunbi.png" /></a></li>
+                        
             <li><a href="#" target="_blank"><img src="../assets/images/partner/p_3i.png" /></a></li>
             <li><a href="http://ypool.net/" target="_blank"><img src="../assets/images/partner/p_ypool.png" /></a></li>
             <li><a href="http://btc38.com/trade_en.html" target="_blank"><img src="../assets/images/partner/p_btc38.png" /></a></li>
@@ -81,7 +81,6 @@ include 'inc/header.php';
             <li><a href="http://bitpaper.info/" target="_blank"><img src="../assets/images/partner/p_bitpaper.png" /></a></li>
             
             <li><a href="http://www.bts.hk/" target="_blank"><img src="../assets/images/partner/p_btshk.png" /></a></li>
-            <li><a href="http://www.yunbi.com" target="_blank"><img src="../assets/images/partner/p_yunbi.png" /></a></li>
             
           </ul>
         </div>
