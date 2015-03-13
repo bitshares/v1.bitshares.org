@@ -74,7 +74,7 @@ include '../inc/header.php';
 </a>
 
 
-<a  class="download"  href="../binaries/BitShares-v0.6.2.exe" onclick="thanks();" >
+<a  class="download"   href="../binaries/BitShares-v0.6.2.exe" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});" >
 <div class="large-3 medium-3 small-12 columns outline text-center panel-download">
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/windows.svg">
 <h4>BitShares Client</h4>
@@ -86,7 +86,7 @@ include '../inc/header.php';
 </div>
 </a>
 
-<a class="download"  href="../binaries/BitShares-0.6.2.dmg" onclick="thanks();">
+<a class="download"  href="../binaries/BitShares-0.6.2.dmg" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});">
 <div class="large-3 medium-3 small-12 columns outline text-center panel-download">
 
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/apple.svg">
@@ -98,7 +98,7 @@ include '../inc/header.php';
 </a>
 
 
-<a  class="download"  href="../binaries/bitsharesGUI-0.6.2-linux-x86_64.tar.gz" onclick='thanks();'>
+<a  class="download"  href="../binaries/bitsharesGUI-0.6.2-linux-x86_64.tar.gz" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});">
 <div class="large-3 medium-3 small-12 columns outline text-center panel-download" >
 
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/linux.svg">
@@ -156,13 +156,7 @@ include '../inc/header.php';
 </center>
 </section>
 </div>
-<script>
-function thanks() {
-    setTimeout(function () {
-        document.location.pathname = "../resources/thankyou";
-    }, 1000);
-}
-</script>
+
 
 </script>
 <!--// End Content Section  -->  
