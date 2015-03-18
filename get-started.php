@@ -79,7 +79,7 @@ include 'inc/header.php';
      
             
    
-     <a  class="download"  href="../binaries/BitShares-v0.6.1.exe" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});">
+     <a  class="download"  href="../binaries/BitShares-v0.7.0.exe" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});">
      <div class="large-4 medium-4 small-12 columns outline text-center panel-download ">
      <img style="height: 24px; margin: 0 0 12px 0;" src="../assets/images/icons/windows.svg" />
      <h5>BitShares Client</h5>
@@ -92,7 +92,7 @@ include 'inc/header.php';
      </a>
    
      
-     <a class="download"  href="../binaries/BitShares-0.6.1.dmg" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});">
+     <a class="download"  href="../binaries/BitShares-0.7.0.dmg" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});">
      <div class="large-4 medium-4 small-12 columns outline text-center panel-download">
      
      <img style="height: 24px; margin: 0 0 12px 0;" src="../assets/images/icons/apple.svg" />
@@ -104,7 +104,7 @@ include 'inc/header.php';
      </a>
      
      
-     <a  class="download"  href="../binaries/bitsharesGUI-0.6.1-linux-x86_64.tar.gz" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});">
+     <a  class="download"  href="../binaries/bitshares-0.7.0-linux-x86_64.tar.gz" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});">
      <div class="large-4 medium-4 small-12 columns outline text-center panel-download" style="margin-bottom: 24px;">
      
      <img style="height: 24px ;margin: 0 0 12px 0;" src="../assets/images/icons/linux.svg" />
