@@ -88,8 +88,7 @@ include 'inc/header.php';
       <div class="large-9 medium-9 small-12 columns">
       <h5>Bitcoin Rally Spawns Startups Offering Theft Protection: Tech</h5>
          <p>About a dozen startups, from a coin-making company called Titan Mint Inc. to a marketplace called BitShares that lets people trade Bitcoins among themselves, are aiming to assuage concerns over Bitcoin’s vulnerability. They’re offering everything from metal coins embossed with security codes to encrypted online accounts. “The risk is there, and that is enough to dissuade some users,” said Nicholas Colas, chief market strategist
-           <a href="http://www.businessweek.com/news/2014-02-07/bitcoin-rally-spawns-startups-offering-theft-protection-tech" target="_blank">read more…</a>
-         </p>
++ <a href="http://www.bloomberg.com/news/articles/2014-02-07/bitcoin-rally-spawns-startups-offering-theft-protection-tech" target="_blank">read more…</a>         </p>
       </div>
     </div>
       
