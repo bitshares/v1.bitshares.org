@@ -74,7 +74,7 @@ include '../inc/header.php';
      <p>
      A <strong>Bridge</strong> provides the service of converting between bitUSD &amp; USD, bitBTC &amp; BTC, or  bitGOLD &amp gold for a competitive fixed fee.  After the exchange is complete 
      there are no longer an liabilities between the parties.  Over time competition among bridges will move the fee toward 0 and may one day even reach 0. The
-     most popular bridge is currently <a href="https://shapeshift.io">ShapeShift</a>.
+     most popular BitShares bridge is currently <a href="https://metaexchange.info">metaexchange</a>.
      </p>
      <p>
      A <strong>Gateway</strong> provides the services of issuing redeemable IOUs that can be traded against any asset on the BitShares exchange.  Redeemable IOU's have the advantage of having a perfect peg if the issuer is trustworthy.  Gateways are the building block that enables price discovery on the BitShares exchange.
