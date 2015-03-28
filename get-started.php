@@ -184,7 +184,7 @@ include 'inc/header.php';
       <p>This will bring up a dialog that asks you how you would like to pay the transaction fee required to register your newly created account:</p>
       <p><img alt="Register Account" src="../assets/images/get-started/5_register_account.png"></p>
       <p class="panel"><i><span class="label awesome ">NOTE:</span> Because this is your first account and you have no funds, you are given an option for the BitShares faucet to pay your transaction fee on your behalf.</i></p>
-      <p>Now, click the blue <i>Register</i> button, which will open your web browser and take you to <a href="http://www.faucet.bitshares.org" target="_blank">faucet.bitshares</a></p>
+      <p>Now, click the blue <i>Register</i> button, which will open your web browser and take you to <a href="https://faucet.bitshares.org" target="_blank">faucet.bitshares</a></p>
        <p><img alt="Register Account" src="../assets/images/get-started/6_register_account_arrow.png"></p>
        <p>Once you’ve reached faucet.bitshares.org, you will be asked to login via one of several different services that most people already have an account with:</p>
        <p><img alt="Faucet " src="../assets/images/get-started/7_faucet.png"></p>
