@@ -15,6 +15,7 @@
 <!-- Right Nav Section -->
 <ul class="right main">
 <li <?php if ($page == 'how-it-works.php') { ?>class="active"<?php } ?>><a href="../how-it-works">How It Works</a></li>
+<li <?php if ($page == 'deposit-withdraw.php') { ?>class="active"<?php } ?>><a href="../deposit">Deposit -or- Withdraw</a></li>
 <li <?php if ($page == 'gateways.php') { ?>class="active"<?php } ?>><a href="../resources/gateways">Gateways</a></li>
 
 <?php if ($page == 'get-started.php') { ?>
