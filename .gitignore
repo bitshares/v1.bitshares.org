@@ -2,3 +2,5 @@
 *.codekit_cache
 *.bowerrc
 *.sass_cache
+config.codekit
+*.config.codekit

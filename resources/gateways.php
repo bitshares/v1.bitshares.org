@@ -63,7 +63,7 @@ include '../inc/header.php';
 </div>
   </div>
   
-  <div class="large-9 medium-8 small-12 columns " role="main">
+  <div class="large-9 medium-8 small-12 columns " role="main">  
   
    <a name="Gateways"></a>
 <div class="row ">

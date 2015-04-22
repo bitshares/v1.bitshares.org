@@ -92,9 +92,9 @@ include '../inc/header.php';
 
 <div class="large-4 medium-4 small-12 columns outline text-center panel-success ">
 
-<h5>Buy BTS via Shapeshift</h5>
+<h5>Buy BTS via metaexchange.info</h5>
 <br>
-<p><a href="https://shapeshift.io/" target="_blank" class="button tiny awesome   radius">Buy BTS & bitUSD</a></p>
+<p><a href="https://metaexchange.info/" target="_blank" class="button tiny awesome   radius">Buy BTS / bitUSD / bitCNY / bitBTC </a></p>
 
 </div>
 

@@ -6958,7 +6958,7 @@ div[data-magellan-expedition-clone] + div[data-magellan-expedition="fixed"] {
   background-color: #ffb515; }
 
 h1, h2 {
-  font-family: ProximaNovaSoft-Semibold;
+  font-family: ProximaNovaSoft-Regular;
   font-style: normal; }
 
 h3, h4, h5 {
@@ -7185,7 +7185,7 @@ p {
     line-height: 14px;
     letter-spacing: 1px; }
   .frontpage-head .headline h2, .frontpage-head .headline h1 {
-    font-family: ProximaNovaSoft-Medium;
+    font-family: ProximaNovaSoft-Regular;
     font-weight: 200;
     /* Start trading today,: */
     padding: 0;

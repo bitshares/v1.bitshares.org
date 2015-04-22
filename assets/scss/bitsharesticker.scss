@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100)
+
+div 
+  &.bitsharesticker
+    width: 100%
+    display: block
+    font-family: "Roboto", Helvetica, Arial
+  &.bitsharesticker-container
+    position: relative
+    margin: 0 30px
+    height: 30px
+  &.bitsharesticker-container-left
+    width: 30px
+    height: 30px
+    display: block
+    position: absolute
+    left: -30px
+    top: 0
+    z-index: 2
+  &.bitsharesticker-container-right
+    width: 30px
+    display: block
+    height: 30px
+    position: absolute
+    right: -30px
+    top: 0
+    z-index: 2
+  &.bitsharesticker-container-content
+    position: relative
+    z-index: 3
+    line-height: 22px
+    padding: 8px 0
+    margin: 0 0
+  &.bitsharesticker-username a
+    color: #eac12d
+    text-decoration: none
+    &:hover
+      color: white
+  &.bitsharesticker-feedbox
+    overflow: hidden
+    position: relative
+    z-index: 100
+    margin: 0
+    padding: 0
+  &.bitsharesticker-feedbox-content
+    display: block
+    margin: 0 3px 0 2px
+    height: 30px
+    position: relative
+    z-index: 200
+  &.bitsharesticker-overflow-container
+    white-space: nowrap
+    overflow: hidden
+    position: relative
+    font-size: 12px
+    display: block
+    width: 100%
+
+@media (max-width: 580px)
+  div.bitsharesticker-username
+    display: none
+
+
+ul.bitsharesticker-feeds-list
+  position: relative
+  list-style: none
+  display: inline
+  margin: 0
+  padding: 0
+  li
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3)
+    display: inline
+    font-weight: 300
+    margin: 0 10px
+    list-style: none
+    padding: 0
+    white-space: nowrap
+    a
+      color: white
+    span.bitsharesticker-date
+      font-size: 9px
+      font-style: italic
+      color: white
+      position: relative
+      bottom: 1px
+      a
+        color: inherit !important
+        margin-right: 5px
+        text-decoration: none !important
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3)
+        border-bottom: 1px solid #aaaaaa
+
+// BitAssets Currencies - Colors
+
+li.bitsharesticker-feed
+  color: #fcf8f9
+  opacity: 0.7
+  letter-spacing: 1px
+  font-weight: 500
+
+// UP - color
+
+.up
+  color: #7ed321
+  font-weight: 100
+  .change, &.pct
+    font-weight: 100
+
+// DOWN - color
+
+.down
+  color: #df565b
+  font-weight: 200
+  .change, &.pct
+    color: #df565b
+    font-weight: 200
+  .change, &.pct
+    font-weight: 100
+
+// BitAssets Currencies End
+
+div.bitsharesticker-bitshares-link
+  position: relative
+  z-index: 200
+  float: right
+  margin: 0 -16px 0 0
+  a
+    background: url(../images/bitshares-logo.png) no-repeat center center
+    margin-top: -10px
+    overflow: hidden
+    text-indent: -9999px
+    width: 31px
+    height: 30px
+    display: block
