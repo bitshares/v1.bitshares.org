@@ -41,6 +41,19 @@ include 'inc/header.php';
    <div class="top"></div>
   <div class="large-12 medium-12 small-12 columns">
 
+
+
+<div class="row ">
+<div class="large-3 medium-3 small-12 columns"><img src="../assets/images/press/press_cointelegraph.png" /></div>
+<div class="large-9 medium-9 small-12 columns">
+<h5>BitShares 101: Basics of the World's 4th Most Popular Cryptocurrency</h5>
+   <p>Functionality – the key functionality of Bitcoin and most of its clones is, in essence, a new form of checking account that has no counterparty risk. BitShares goes beyond that basic service to provide a wide range of other counterparty-free financial services. BitShares takes Bitcoin’s concept of an incorruptible public ledger and applies it to many profitable business models.
+     <a href="http://cointelegraph.com/news/114033/bitshares-101-basics-of-the-worlds-4th-most-popular-cryptocurrency" target="_blank">read more…</a>
+   </p>
+</div>
+</div>
+
+
 <div class="row ">
 <div class="large-3 medium-3 small-12 columns"><img src="../assets/images/press/press_cryptocoinnews.png" /></div>
 <div class="large-9 medium-9 small-12 columns">
