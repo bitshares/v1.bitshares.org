@@ -1,0 +1,41 @@
+/*
+Syntax error: Invalid US-ASCII character "\xC2"
+        on line 83 of app.scss
+
+78:  * 
+79:  * License: http://www.myfonts.com/viewlicense?type=web&buildid=2964087
+80:  * Licensed pageviews: 1,000,000
+81:  * Webfonts copyright: Copyright (c) Mark Simonson, 2010. All rights reserved.
+82:  * 
+83:  * © 2015 MyFonts Inc
+84: */
+85: 
+86: 
+87: /* @import must be at top of file, otherwise CSS will not work */
+88: @import url("//hello.myfonts.net/count/2d3a77");
+
+Backtrace:
+app.scss:83
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/sass/engine.rb:185:in `block in _to_tree'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/haml/util.rb:327:in `rescue in block in check_encoding'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/haml/util.rb:324:in `block in check_encoding'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/haml/util.rb:323:in `each'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/haml/util.rb:323:in `each_with_index'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/haml/util.rb:323:in `check_encoding'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/sass/engine.rb:185:in `_to_tree'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/sass/engine.rb:178:in `to_tree'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/sass/files.rb:42:in `tree_for'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/sass/plugin.rb:331:in `update_stylesheet'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/sass/plugin.rb:212:in `block in update_stylesheets'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/sass/plugin.rb:212:in `each'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/sass/plugin.rb:212:in `update_stylesheets'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/haml/exec.rb:395:in `watch_or_update'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/haml/exec.rb:318:in `process_result'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/haml/exec.rb:40:in `parse'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/haml/lib/haml/exec.rb:22:in `parse!'
+/Users/cominaction/Library/Application Support/Espresso/Sugars/SASS.sugar/Support/Scripts/create_single_css.rb:14:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid US-ASCII character \"\xC2\"\A         on line 83 of app.scss\A \A 78:  * \A 79:  * License: http://www.myfonts.com/viewlicense?type=web&buildid=2964087\A 80:  * Licensed pageviews: 1,000,000\A 81:  * Webfonts copyright: Copyright (c) Mark Simonson, 2010. All rights reserved.\A 82:  * \A 83:  * © 2015 MyFonts Inc\A 84: */\A 85: \A 86: \A 87: /* @import must be at top of file, otherwise CSS will not work */\A 88: @import url(\"//hello.myfonts.net/count/2d3a77\");"; }

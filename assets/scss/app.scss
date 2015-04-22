@@ -368,7 +368,7 @@ background-color: #ffb515;
   
 
 h1, h2 { 
-	font-family: $proxima-soft-semb; 
+	font-family: $proxima-soft-reg; 
 	font-style: normal; 
 }
 
@@ -674,7 +674,7 @@ p
         letter-spacing: 1px
           }   
         .headline h2, .headline h1 {
-            font-family: ProximaNovaSoft-Medium;
+            font-family: $proxima-soft-reg;
             font-weight: 200;
             /* Start trading today,: */
             padding: 0;
