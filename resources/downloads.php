@@ -53,7 +53,7 @@ include '../inc/header.php';
   Be sure to download and install the version of the BitShares software found below that is compatible with your computer’s operating system:</p>
 </div>
 
-<span class="label awesome radius secondary">BitShares 0.9.0</span>
+<span class="label awesome radius secondary">BitShares 0.9.1</span>
 
 
 
@@ -74,7 +74,7 @@ include '../inc/header.php';
 </a>
 
 
-<a  class="download"   href="../binaries/BitShares-v0.9.0.exe" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});" >
+<a  class="download"   href="../binaries/BitShares-v0.9.1.exe" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});" >
 <div class="large-3 medium-3 small-12 columns outline text-center panel-download">
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/windows.svg">
 <h4>BitShares Client</h4>
@@ -86,7 +86,7 @@ include '../inc/header.php';
 </div>
 </a>
 
-<a class="download"  href="../binaries/BitShares-0.9.0.dmg" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});">
+<a class="download"  href="../binaries/BitShares-0.9.1.dmg" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});">
 <div class="large-3 medium-3 small-12 columns outline text-center panel-download">
 
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/apple.svg">
@@ -98,7 +98,7 @@ include '../inc/header.php';
 </a>
 
 
-<a  class="download"  href="../binaries/bitsharesGUI-0.9.0-linux-x86_64.tar.gz" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});">
+<a  class="download"  href="../binaries/bitsharesGUI-0.9.1-linux-x86_64.tar.gz" onclick="ga('set', 'nonInteraction', false);ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'bitshares_client'});">
 <div class="large-3 medium-3 small-12 columns outline text-center panel-download" >
 
 <img style="height: 48px;margin: 0 0 24px 0;" src="../assets/images/icons/linux.svg">
